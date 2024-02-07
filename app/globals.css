@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 370px) and (max-width: 420px) {
+    .btm-nav{
+        padding: 10px 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    .btm-nav{
+        padding: 10px 10px;
+    }
+    .btm-nav > div:first-child{
+        height: 14px;
+        width: 14px;
+    }
+    .btm-nav > div:nth-child(2){
+        font-size: 11.5px;
+    }
+}

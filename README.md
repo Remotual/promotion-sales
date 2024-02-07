@@ -1,2 +1,2 @@
 # promotion-sales
-Promoting our services
+Landing page build in Nextjs - to promote our services 
