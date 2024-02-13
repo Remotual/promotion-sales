@@ -74,7 +74,7 @@ const dataJson = {
                 }
             },
             tab8: {
-                illustration: imagePrefix + "gif/globalTeam2.gif",
+                illustration: imagePrefix + "gif/updated_global_team.gif",
                 content: {
                     heading: "Globally Diversified Remote Team",
                     details: [
