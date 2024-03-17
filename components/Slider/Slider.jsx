@@ -56,9 +56,9 @@ export default function Slider(props) {
       }}
     >
       {
-        props.testimonials?.map((testimonial) => {
+        props.testimonials?.map((testimonial, index) => {
           return (
-            <div className="">
+            <div key={index} className="">
               <div className="w-[75%] h-[75%]  mx-auto">
                 <div className="flex gap-4 items-center justify-center">
                   <div className="">
@@ -75,7 +75,7 @@ export default function Slider(props) {
                             <>
                               {
                                 testimonial.star >= number + 1 ?
-                                  <Image src={star}></Image>
+                                  <Image key={number} src={star}></Image>
                                   :
                                   ""
                               }

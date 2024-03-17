@@ -23,7 +23,7 @@ const AllPageSEO = {
         manifest: "",
         icons: {
             icon: imagePrefix+ "logo_small.png",
-            apple: imagePrefix+ "logo_small.png"
+            apple: imagePrefix+ 'logo_small.png'
         }
     }
 }

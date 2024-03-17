@@ -20,9 +20,9 @@ export default function TeamSection() {
                 <div className='mt-[50px] mb-[50px] md:grid md:grid-cols-3 md:gap-10 md:w-[70%] md:ml-[auto] md:mr-[auto]'>
 
                     {
-                        dataJson.salesPage.teams.team.map((team) => {
+                        dataJson.salesPage.teams.team.map((team, index) => {
                             return(
-                                <div className="bg-white sw:w-full px-[20px] my-4 py-[18px] rounded-[18px] flex justify-center items-center md:m-auto">
+                                <div key={index} className="bg-white sw:w-full px-[20px] my-4 py-[18px] rounded-[18px] flex justify-center items-center md:m-auto">
                                     <div className='h-[100px] w-[100px] rounded-full'><Image src={team.image} height={1000} width={1000}></Image></div>
                                     <div className='ml-[20px]'>
                                         <div className='text-[18px] font-semibold'>{team.name}</div>

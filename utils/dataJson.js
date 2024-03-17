@@ -25,7 +25,6 @@ const dataJson = {
                 }
             },
             tab3: {
-                // #ff8515 #ff7a00a1
                 illustration: imagePrefix + "gif/efficiency.gif",
                 content: {
                     heading: "Efficiency Crusaders",

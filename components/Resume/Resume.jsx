@@ -34,9 +34,9 @@ export default function Resume(props) {
             <ul className="list-disc">
               {
               
-                props.user?.resume.experience.description.map((describe) => {
+                props.user?.resume.experience.description.map((describe, index) => {
                   return(
-                    <li className="">
+                    <li key={index} className="">
                       {describe}
                     </li>
                   )
@@ -68,9 +68,9 @@ export default function Resume(props) {
             <div className="mt-3 px-6 text-[14px] text-justify">
               <ul className="list-disc">
                 {
-                  props.user?.resume.education.description.map((describe) => {
+                  props.user?.resume.education.description.map((describe, index) => {
                     return (
-                      <li className="">
+                      <li key={index} className="">
                         {describe}
                       </li>
                     )

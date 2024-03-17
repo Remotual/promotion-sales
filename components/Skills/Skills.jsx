@@ -37,9 +37,9 @@ export default function Skills(props) {
 
           <div className="grid grid-cols-1 gap-6">
             {
-              props.user?.resume.skills.map((skill) => {
+              props.user?.resume.skills.map((skill, index) => {
                 return(
-                  <div className="flex flex-col gap-2">
+                  <div key={index} className="flex flex-col gap-2">
                     <div className="flex gap-2">
                       <img src={skill.logo} />
                       <p className=" text-[15px] font-medium">{skill.name}</p>
@@ -74,8 +74,8 @@ export default function Skills(props) {
                           return(
                             
                             value <= skill.level ?
-                            <Image src={orangedot}></Image>:
-                            <Image src={graydot}></Image>
+                            <Image key={value} src={orangedot}></Image>:
+                            <Image key={value} src={graydot}></Image>
                             
                           )
                         })
@@ -144,9 +144,9 @@ export default function Skills(props) {
 
           <div className="flex flex-col gap-4">
             {
-              props.user?.resume.hardSkills.map((skill) => {
+              props.user?.resume.hardSkills.map((skill, index) => {
                 return (
-                  <div className="flex gap-4">
+                  <div key={index} className="flex gap-4">
                     <Image src={checked}></Image>
                     <p className=" text-[15px] font-medium">{skill}</p>
                   </div>
@@ -168,9 +168,9 @@ export default function Skills(props) {
 
           <div className="flex flex-col gap-4">
             {
-              props.user?.resume.softSkills.map((skill) => {
+              props.user?.resume.softSkills.map((skill, index) => {
                 return (
-                  <div className="flex gap-4">
+                  <div key={index} className="flex gap-4">
                     <Image src={checked}></Image>
                     <p className=" text-[15px] font-medium">{skill}</p>
                   </div>

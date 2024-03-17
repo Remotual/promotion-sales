@@ -17,7 +17,7 @@ export default function Services(props) {
                 {
                       props.user?.services.map((service, index) => {
                         return (
-                            <>
+                            <div key={index}>
                                 <div className='flex items-start mt-5 lg:flex-col lg:justify-center lg:items-center lg:text-center lg:gap-3'>
                                     {/* {
                                         service.title === "Customer Service Management" ?
@@ -48,7 +48,7 @@ export default function Services(props) {
                                         
                                     </div>
                                 </div>
-                            </>
+                            </div>
                         )
                       })
                 }

@@ -125,8 +125,8 @@ export default function Playlist() {
               id="playlist"
               className=" overflow-y-scroll lg:h-[300px] xl:h-[450px] w-full"
             >
-              {playlist.map((video) => (
-                <>
+              {playlist.map((video, index) => (
+                <div key={index}>
                   <div
                     onClick={() => handleVideoChange(video)}
                     className={
@@ -140,7 +140,7 @@ export default function Playlist() {
                       {video.title}
                     </p>
                   </div>
-                </>
+                </div>
               ))}
             </div>
           </div>
