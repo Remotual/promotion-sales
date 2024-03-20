@@ -58,7 +58,6 @@ function generateTwitterTags(seoTags) {
         card: 'summary_large_image',
         title: seoTags.title,
         description: seoTags.description,
-        creator: '@imudayyyy',
         images: [seoTags.image],
     }
     return twitter

@@ -21,17 +21,219 @@ const serviceOptions = [
   { value: "select-all", label: "select-all" },
 ];
 
-const buckSavings = [
-  { value: "administrative-support", label: "administrative-support" },
-  { value: "project-management", label: "project-management" },
-  {
-    value: "accounting-&-financial-support",
-    label: "accounting-&-financial-support",
-  },
-  { value: "marketing-&-sales-support", label: "marketing-&-sales-support" },
-  { value: "data-entry-&-management", label: "data-entry-&-management" },
-  { value: "website-support", label: "website-support" },
-  { value: "select-all", label: "select-all" },
+const buckSavings = [{
+  value: "administrative-support",
+  label: "administrative-support"
+},
+{
+  value: "project-management",
+  label: "project-management"
+},
+{
+  value: "accounting-&-financial-support",
+  label: "accounting-&-financial-support",
+},
+{
+  value: "marketing-&-sales-support",
+  label: "marketing-&-sales-support"
+},
+{
+  value: "data-entry-&-management",
+  label: "data-entry-&-management"
+},
+{
+  value: "website-support",
+  label: "website-support"
+},
+
+{
+  value: "bookkeeper",
+  label: "bookkeeper"
+},
+{
+  value: "community-builder",
+  label: "community-builder"
+},
+{
+  value: "content-manager",
+  label: "content-manager"
+},
+{
+  value: "copywriter",
+  label: "copywriter"
+},
+{
+  value: "digital-marketing-specialist",
+  label: "digital-marketing-specialist"
+},
+{
+  value: "ecommerce-marketplace-manager",
+  label: "ecommerce-marketplace-manager"
+},
+
+
+{
+  value: "growth-marketing-specialist",
+  label: "growth-marketing-specialist"
+},
+{
+  value: "marketing-analyst",
+  label: "marketing-analyst"
+},
+{
+  value: "marketing-automation-specialist",
+  label: "marketing-automation-specialist"
+},
+{
+  value: "email-marketing-specialist",
+  label: "email-marketing-specialist"
+},
+{
+  value: "product-manager",
+  label: "product-manager"
+},
+{
+  value: "seo-specialist",
+  label: "seo-specialist"
+},
+{
+  value: "head-of-marketing",
+  label: "head-of-marketing"
+},
+{
+  value: "marketing-manager",
+  label: "marketing-manager"
+},
+{
+  value: "account-executive",
+  label: "account-executive"
+},
+{
+  value: "inbound-sales-marketing",
+  label: "inbound-sales-marketing"
+},
+{
+  value: "outreach-specialist",
+  label: "outreach-specialist"
+},
+{
+  value: "sales-development-representative",
+  label: "sales-development-representative"
+},
+{
+  value: "sales-manager",
+  label: "sales-manager"
+},
+{
+  value: "business-development-representative",
+  label: "business-development-representative"
+},
+{
+  value: "customer-operations-assistant",
+  label: "customer-operations-assistant"
+},
+{
+  value: "customer-success-manager",
+  label: "customer-success-manager"
+},
+{
+  value: "customer-support-analyst",
+  label: "customer-support-analyst"
+},
+{
+  value: "customer-support-representative",
+  label: "customer-support-representative"
+},
+{
+  value: "head-of-customer-success",
+  label: "head-of-customer-success"
+},
+{
+  value: "appointment-setter",
+  label: "appointment-setter"
+},
+{
+  value: "business-associate",
+  label: "business-associate"
+},
+{
+  value: "executive-assistant",
+  label: "executive-assistant"
+},
+{
+  value: "general-manager",
+  label: "general-manager"
+},
+{
+  value: "head-of-operations",
+  label: "head-of-operations"
+},
+{
+  value: "operations-analyst",
+  label: "operations-analyst"
+},
+{
+  value: "opeartions-associate",
+  label: "opeartions-associate"
+},
+{
+  value: "procurement-specialist",
+  label: "procurement-specialist"
+},
+{
+  value: "it-recruiter",
+  label: "it-recruiter"
+},
+{
+  value: "back-end-developer",
+  label: "back-end-developer"
+},
+{
+  value: "full-stack-developer",
+  label: "full-stack-developer"
+},
+{
+  value: "front-end-developer",
+  label: "front-end-developer"
+},
+{
+  value: "software-engineer",
+  label: "software-engineer"
+},
+{
+  value: "software-implementer",
+  label: "software-implementer"
+},
+{
+  value: "dev-ops",
+  label: "dev-ops"
+},
+{
+  value: "business-intelligence-analyst",
+  label: "business-intelligence-analyst"
+},
+{
+  value: "data-scientist",
+  label: "data-scientist"
+},
+{
+  value: "graphic-designer",
+  label: "graphic-designer"
+},
+{
+  value: "ui-ux-designer",
+  label: "ui-ux-designer"
+},
+{
+  value: "video-editor",
+  label: "video-editor"
+},
+
+
+{
+  value: "select-all",
+  label: "select-all"
+},
 ];
 
 export default function CompanyInfo({ info }) {
