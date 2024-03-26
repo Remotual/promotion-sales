@@ -24,12 +24,12 @@ export default function PersonalTab({ content, image }) {
                 height={100}
                 width={100}
                 className="h-[34px] w-[34px]"
-                src={image}
+                src={item.icon}
                 alt=""
               />
             </div>
             <p className=" font-semibold text-[19.09px] leading-[29px] text-[#222222] ">
-              {item}
+              {item.text}
             </p>
           </div>
         );

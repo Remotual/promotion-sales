@@ -54,6 +54,31 @@ import Icons_Graphic_Designer from "@/public/Job_Icons/Icons_Graphic_Designer.sv
 import Icons_Ui_Ux_Designer from "@/public/Job_Icons/Icons_Ui_Ux_Designer.svg";
 import Icons_Video_Editor from "@/public/Job_Icons/Icons_Video_Editor.svg";
 
+import InboxManagement from '@/public/Job_Value_Icons/Administrative_support/Inbox_Management-012.svg'
+import Calendar_Management from '@/public/Job_Value_Icons/Administrative_support/Calendar_Management.svg'
+import travel_management from '@/public/Job_Value_Icons/Administrative_support/travel_management2.svg'
+import arrange_data from '@/public/Job_Value_Icons/Administrative_support/arrange_data2.svg'
+
+import plan_and_develop from '@/public/Job_Value_Icons/Project_Management/plan_and_develop2.svg';
+import create_and_lead from '@/public/Job_Value_Icons/Project_Management/create_and_lead2.svg';
+import Monitor_Progress from '@/public/Job_Value_Icons/Project_Management/Monitor_Progress2.svg';
+import stakeholder_satisfaction from '@/public/Job_Value_Icons/Project_Management/stakeholder_satisfaction2.svg';
+
+import payroll_support from '@/public/Job_Value_Icons/Acc_and_financial_support/payroll_support2.svg';
+import reimbursement_invoices from '@/public/Job_Value_Icons/Acc_and_financial_support/reimbursement_invoices2.svg';
+import Accounts_payable2 from '@/public/Job_Value_Icons/Acc_and_financial_support/Accounts_payable2.svg';
+import financial_reports from '@/public/Job_Value_Icons/Acc_and_financial_support/financial_reports2.svg';
+
+
+import leadGenerations from '@/public/Job_Value_Icons/Marketing_&_Sales/Effective lead generation.svg';
+import marketingMaterials from '@/public/Job_Value_Icons/Marketing_&_Sales/Marketing Meterials.svg';
+import seoSupport from '@/public/Job_Value_Icons/Marketing_&_Sales/Seo Support.svg';
+import proposals from '@/public/Job_Value_Icons/Marketing_&_Sales/proposals.svg';
+
+import analyze_reports from '@/public/Job_Value_Icons/Data_entry_and_support/analyze_reports2.svg';
+import Automation_support from '@/public/Job_Value_Icons/Data_entry_and_support/Automation_support.svg';
+import Data_Management from '@/public/Job_Value_Icons/Data_entry_and_support/Data_Management2.svg';
+import Data_verification from '@/public/Job_Value_Icons/Data_entry_and_support/Data_verification2.svg';
 
 const dataServices = {
   "administrative-support": {
@@ -64,10 +89,22 @@ const dataServices = {
       {
         illustartion: personal,
         content: [
-          "Inbox Management/Inbox Zero.",
-          "Calendar Management.",
-          "Travel Management.",
-          "Prepare reports and Presentation.",
+          {
+            icon: InboxManagement,
+            text: "Inbox Management/Inbox Zero"
+          }, 
+          {
+            icon: Calendar_Management,
+            text: "Calendar Management"
+          }, 
+          {
+            icon: travel_management,
+            text: "Travel Management"
+          }, 
+          {
+            icon: arrange_data,
+            text: "Arrange data and Information for your business"
+          }, 
           // "Safe-keeping of Company documents.",
           // "Arrange data and Information for your business.",
         ],
@@ -88,10 +125,22 @@ const dataServices = {
       {
         illustartion: projectManagement,
         content: [
-          "Plan and Develop the Project Idea.",
-          "Create and Lead Your Dream Team.",
-          "Monitor Project Progress and Set Deadlines.",
-          "Solve Issues That Arise.",
+          {
+            icon: plan_and_develop,
+            text: "Plan and Develop the Project Idea"
+          }, 
+          {
+            icon: create_and_lead,
+            text: "Create and Lead Your Dream Team"
+          }, 
+          {
+            icon: Monitor_Progress,
+            text: "Monitor Project Progress and Set Deadlines"
+          }, 
+          {
+            icon: stakeholder_satisfaction,
+            text: "Solve Issues That Arise"
+          }, 
           // "Ensure Stakeholder Satisfaction."
         ],
         salary:[{
@@ -111,10 +160,22 @@ const dataServices = {
       {
         illustartion: accounting,
         content: [
-          "Payroll support.",
-          "Reimbursement/Invoices assistance.",
-          "Accounts Payable.",
-          "Preparing Financial Reports."
+          {
+            icon: payroll_support,
+            text: "Payroll support"
+          }, 
+          {
+            icon: reimbursement_invoices,
+            text: "Reimbursement/Invoices assistance"
+          }, 
+          {
+            icon: Accounts_payable2,
+            text: "Accounts Payable"
+          }, 
+          {
+            icon: financial_reports,
+            text: "Preparing Financial Reports"
+          }, 
         ],
         salary:[{
           name: "US Salary Remotual",
@@ -133,10 +194,22 @@ const dataServices = {
       {
         illustartion: marketing,
         content: [
-          "SEO Support/Analytics.",
-          "Social Media Optimization.",
-          "Effective Lead Generation and Proposals.",
-          "Create/Propose Marketing Materials and Campaigns.",
+          {
+            icon: seoSupport,
+            text: "SEO Support/Analytics"
+          }, 
+          {
+            icon: proposals,
+            text: "Social Media Optimization"
+          }, 
+          {
+            icon: leadGenerations,
+            text: "Effective Lead Generation and Proposals"
+          }, 
+          {
+            icon: marketingMaterials,
+            text: " Create/Propose Marketing Materials and Campaigns"
+          }, 
           // "Customer Success Management",
           // "Market research.",
         ],
@@ -151,10 +224,22 @@ const dataServices = {
       {
         illustartion: dataService,
         content: [
-          "Generate/Analyze reports.",
-          "Verify data through source documents.",
-          "Data-base management.",
-          "Organizing employee/customer files",
+          {
+            icon: analyze_reports,
+            text: "Generate/Analyze reports"
+          }, 
+          {
+            icon: Data_verification,
+            text: "Verify data through source documents"
+          }, 
+          {
+            icon: Data_Management,
+            text: "Database Management"
+          }, 
+          {
+            icon: Automation_support,
+            text: "Automation Support"
+          }, 
           // "Automation Support.",
         ],
       },
@@ -168,10 +253,22 @@ const dataServices = {
       {
         illustartion: creativeSupport,
         content: [
-          "Design and develop website features.",
-          "Directing or performing website updates.",
-          "PTesting and evaluating new technologies.",
-          "Review/Optimize website accuracy and functionality."
+          {
+            icon: leadGenerations,
+            text: "Design and develop website features"
+          }, 
+          {
+            icon: marketingMaterials,
+            text: "Directing or performing website updates"
+          }, 
+          {
+            icon: seoSupport,
+            text: "Testing and evaluating new technologies"
+          }, 
+          {
+            icon: proposals,
+            text: "Review/Optimize website functionality"
+          }, 
         ],
       },
     ],
