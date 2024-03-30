@@ -34,19 +34,6 @@ const buckSavings = [{
   label: "accounting-&-financial-support",
 },
 {
-  value: "marketing-&-sales-support",
-  label: "marketing-&-sales-support"
-},
-{
-  value: "data-entry-&-management",
-  label: "data-entry-&-management"
-},
-{
-  value: "website-support",
-  label: "website-support"
-},
-
-{
   value: "bookkeeper",
   label: "bookkeeper"
 },
