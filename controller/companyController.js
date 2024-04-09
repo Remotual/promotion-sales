@@ -10,7 +10,7 @@ export default class companyController {
     return data;
   }
 async getCompanyAllData() {
-    const data = await await prismadb.company.findMany({
+    const data = await prismadb.company.findMany({
       orderBy: {
         companyName: 'asc'
       }

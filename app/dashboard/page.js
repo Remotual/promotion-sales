@@ -1,25 +1,11 @@
-import DashboardData from "@/components/Dashboard/Dashboard";
-import companyController from "@/controller/companyController";
+import DashboardMain from "@/components/Dashboard/DashboadMain";
+
 
 export default async function Dashboard() {
-  const controller = new companyController();
-  const allCompanyData = await controller.getCompanyAllData();
+  // const controller = new companyController();
+  // const allCompanyData = await controller.getCompanyAllData();
 
   return (
-    <div className="bg-[#FFF5EC] min-h-screen py-9 ">
-      <div className="flex flex-col gap-3 justify-center items-center w-11/12 mx-auto ">
-        <div className="grid grid-cols-[15%,15%,30%,1fr,10%] gap-2  w-full ">
-          <div className="text-xs md:text-2xl font-bold py-2 px-4 text-[#FF7A00]">Company ID</div>
-          <div className="text-xs md:text-2xl font-bold py-2 px-4 text-[#FF7A00]">Company Name</div>
-          <div className="text-xs md:text-2xl font-bold py-2 px-4 text-[#FF7A00]">Services</div>
-          <div className="text-xs md:text-2xl font-bold py-2 px-4 text-[#FF7A00]">Buck Savings</div>
-        </div>
-        <div className="flex flex-col gap-3 w-full ">
-          {allCompanyData.map((data) => {
-            return <DashboardData data={data} />;
-          })}
-        </div>
-      </div>
-    </div>
+    <DashboardMain />
   );
 }
