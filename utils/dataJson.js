@@ -1087,6 +1087,154 @@ const dataJson = {
             description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
             youtubeLink: ""
         }
+    },
+    beauty: {
+        profile: {
+            image: imagePrefix + "Beauty/image.svg",
+            name: "Beauty Lopez",
+            designation: "OPERATIONS MANAGER",
+            linkedin: "",
+            mail: "",
+            phoneNo: "",
+            hiremeLink: "https://remotual.com/pricing"
+        },
+        about: {
+            description: "Hi, I'm Beauty! With a strong track record in optimizing operations, enhancing team performance, and fostering client relationships. I am well-versed in virtual environments and cross-functional collaboration. My experience spans from managing client expectations and onboarding new clients to ensuring high levels of satisfaction through effective team management. Let's join forces for a journey of productivity and success!",
+            age: 25,
+            location: "Philippines",
+            availability: 40,
+            experience: 9
+        },
+        services: [
+            {
+                image: imagePrefix + "servicesIcons/thumbup.svg", 
+                title: "Streamlining Policies and Procedures",
+                description: "I'm like the wizard of operations – I help organizations streamline their policies and procedures to make sure everything runs as smooth as a freshly buttered slide. I assess what's going on, figure out where we can do better, and then sprinkle in some effective processes to make everything work like a charm. It's like being the conductor of an orchestra, but instead of music, I'm orchestrating the symphony of efficiency!"
+            },
+            {
+                image: imagePrefix + "servicesIcons/community.svg",
+                title: "Customer Success Operations Management",
+                description: "I'm the maestro of customer success – I make sure I understand and meet every client's expectation with a flourish! It's like rolling out the red carpet for new clients, making tasks disappear like a magician, and giving performance reviews that are worthy of a standing ovation. And hey, I'm not a one-person show - I also collaborate with other leaders to make sure our client partnerships are like a perfectly tuned orchestra. It's all about making magic happen in the world of customer success!"
+            },
+            {
+                image: imagePrefix + "servicesIcons/graph.svg",
+                title: "Coaching and Development with EA",
+                description: "I'm like the chief cheerleader for executive assistants – I aim to enhance their superhero skills at core tasks and delegation! It's all about making sure they're caped crusaders of efficiency. I manage the special bond between clients and EAs, making sure it's a match made in superhero heaven. My superpower is ensuring a top-notch performance and keeping clients flying high with satisfaction!"
+            }
+        ],
+        trackRecord: {
+            clients: "50",
+            projects: "400",
+            experience: "9",
+            ratings: "5"
+        },
+        resume: {
+            experience: {
+                start: "Dec 2023",
+                end: "Present",
+                destination: "Customer Success Operations Manager",
+                companyName: "Remotual",
+                description: [
+                    "As the go-to support for our CEO Clients, I'm the behind-the-scenes magic maker.",
+                    "From scheduling to strategic execution, I ensure our leadership soars."
+                ]
+            },
+            education: {
+                start: "2009",
+                end: "",
+                degree: "Bachelor of Arts in Mass Communication",
+                schoolName: "Cavite State University",
+                description: [
+                    "Major in Journalism"
+                ]
+            },
+            skills: [
+                {
+                    logo: imagePrefix + "companyLogos/canva.svg",
+                    name: "Canva",
+                    level: imagePrefix + "Beauty/Bar.png"
+                },
+                {
+                    logo: imagePrefix + "Beauty/googleSuite.svg",
+                    name: "Google Suite",
+                    level: imagePrefix + "Beauty/Bar-1.png",
+                },
+                {
+                    logo: imagePrefix + "companyLogos/capcut.svg",
+                    name: "Capcut",
+                    level: imagePrefix + "Beauty/Bar-2.png"
+                }
+            ],
+            projectManagement: [
+                {
+                    logo: imagePrefix + "companyLogos/clickup.svg",
+                    level: 7
+                },
+                {
+                    logo: imagePrefix + "companyLogos/asana.svg",
+                    level: 6,
+                },
+                {
+                    logo: imagePrefix + "companyLogos/hubspot.svg",
+                    level: 6
+                }
+            ],
+            hardSkills: [
+                "Developing Customizable and flexible process flows",
+                "Skills Gap Analysis",
+                "Lean six sigma",
+                "Workflow Automation",
+                "Project Management in corporate setting "
+            ],
+            softSkills: [
+                "Strategic Planning and visioning ",
+                "Work – life – Balance ",
+                "Client Interaction ",
+                "Customer Satisfaction",
+                "Engagement activities"
+            ]
+        },
+        feedback: {
+            recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+            testimonials: [
+                {
+                    name: "Marion B.",
+                    projectTitle: "Regenerative Changemaking",
+                    image: imagePrefix + "Beauty/marion.png",
+                    star: 5,
+                    tagline: "Delegate for Peace of Mind",
+                    description: "It has been so amazing to be able to delegate things. It's been like peace of mind and clarity like it's just been smooth and no headache. the creative the spending time with the clients that has been a big thing. A big weight has been lifted off our shoulders. "
+                },
+                {
+                    name: "Erin W.",
+                    projectTitle: "Regenerative Changemaking ",
+                    image: imagePrefix + "Beauty/erin.png",
+                    star: 5,
+                    tagline: "Seamless Onboarding",
+                    description: "Your team gave a really smooth process in terms of getting to know us, You know the business and the organization, so I really felt like there was no lag time at all, like kind of fluidly came on board. "
+                },
+                {
+                    name: "Daniel F.",
+                    projectTitle: "Thegreeenhouse",
+                    image: imagePrefix + "Beauty/daniel.png",
+                    star: 5,
+                    tagline: "Quick Delivery and Proactive Support",
+                    description: "I like that you can take our project outline directive on what we need, the way we want it done, and execute it quickly. You're always trying to see if there's something else you can do to help me move faster."
+                },
+                {
+                    name: "Dr. James",
+                    projectTitle: "Pistils and pollen",
+                    image: imagePrefix + "Beauty/james.png",
+                    star: 5,
+                    tagline: "Team Support and Weekly Updates",
+                    description: "I'm really enjoying working with the team-everyone is proving to be so helpful, each in their own way! Plus, I enjoy the weekly updates- invaluable. Very glad for how things are going. Remotual Has Made It So Easy for Me to Scale Up and I Just Keep Creating More Projects Envisioning More Projects and Grow The Business.  everything appears to be in good order. Well done! I was so nervous about the transition, but you made it so easy on me! "
+                }
+            ]
+        },
+        videoPlaylist: {
+            description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+            youtubeLink: ""
+        }
     }
 
 }

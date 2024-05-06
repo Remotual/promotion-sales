@@ -39,7 +39,7 @@ export default function Features(props) {
                 
             </div>
 
-            <div className="w-[fit-content] bg-[#FF7A00] px-5 py-3 text-white rounded-full mt-4 cursor-pointer">Get Started</div>
+            <div className="w-[fit-content] bg-[#FF7A00] px-5 py-3 text-white rounded-full mt-4 cursor-pointer" onClick={() => { window.location.href = "https://remotual.com/pricing/" }}>Get Started</div>
         </>
     )
 }
