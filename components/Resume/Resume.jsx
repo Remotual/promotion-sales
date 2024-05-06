@@ -31,18 +31,28 @@ export default function Resume(props) {
           <p className="text-[18px] font-medium mt-4">{props.user?.resume.experience.destination}</p>
           <p className="mt-2 text-[15px] text-[#BDBDBD]">{props.user?.resume.experience.companyName}</p>
           <div className="mt-3 px-6 text-[14px]  ">
-            <ul className="list-disc">
-              {
-              
-                props.user?.resume.experience.description.map((describe, index) => {
-                  return(
-                    <li key={index} className="">
-                      {describe}
-                    </li>
-                  )
-                })
-              }
-            </ul>
+            {
+              props.user?.resume.experience.description.length == 1 ?
+
+              <p>
+                  {props.user?.resume.experience.description[0]}
+              </p>
+              :
+                <ul className="list-disc">
+                  {
+
+                    props.user?.resume.experience.description.map((describe, index) => {
+                      return (
+                        <li key={index} className="">
+                          {describe}
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
+
+            }
+            
           </div>
         </div>
         {
