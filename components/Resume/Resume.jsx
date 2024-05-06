@@ -16,7 +16,7 @@ export default function Resume(props) {
         </div>
         <div className='h-[2px] bg-[linear-gradient(90deg,_rgba(255,255,255,1)_0%,_rgba(136,136,136,0.3)_50%,_rgba(255,255,255,1)_100%)]'></div>
 
-      <div className="md:flex md:gap-10">
+      <div className="lg:grid lg:grid-cols-2 gap-10 ">
         <div>
           <div className="flex gap-3 items-center mt-6">
             <Image src={experience}></Image>
@@ -30,7 +30,7 @@ export default function Resume(props) {
           </div>
           <p className="text-[18px] font-medium mt-4">{props.user?.resume.experience.destination}</p>
           <p className="mt-2 text-[15px] text-[#BDBDBD]">{props.user?.resume.experience.companyName}</p>
-          <div className="mt-3 px-6 text-[14px] text-justify ">
+          <div className="mt-3 px-6 text-[14px]  ">
             <ul className="list-disc">
               {
               
@@ -49,7 +49,7 @@ export default function Resume(props) {
           props.user?.resume.education === undefined ?
           "":
           <div>
-            <div className="lg:mt-6 flex gap-3 items-center  mt-4">
+              <div className="lg:mt-6 flex gap-3 items-center mt-4">
               <Image src={education}></Image>
               <p className="text-[18px] font-semibold">Education</p>
             </div>

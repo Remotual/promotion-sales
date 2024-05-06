@@ -1092,10 +1092,11 @@ const dataJson = {
         profile: {
             image: imagePrefix + "Beauty/image.svg",
             name: "Beauty Lopez",
-            designation: "OPERATIONS MANAGER",
+            designation: "Operations Manager/Sr. Client Success Manager",
             linkedin: "",
             mail: "",
             phoneNo: "",
+            resume: imagePrefix + "Beauty/beautyResume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -1135,8 +1136,7 @@ const dataJson = {
                 destination: "Customer Success Operations Manager",
                 companyName: "Remotual",
                 description: [
-                    "As the go-to support for our CEO Clients, I'm the behind-the-scenes magic maker.",
-                    "From scheduling to strategic execution, I ensure our leadership soars."
+                    "Dynamic professional adept at optimizing organizational efficiency through policy and procedure refinement. Skilled in project coordination, overseeing progress, and providing valuable coaching and development for executive assistants. Proficient in managing client interactions, fostering strong relationships, and driving business growth. Committed to enhancing operational effectiveness while delivering exceptional client service"
                 ]
             },
             education: {

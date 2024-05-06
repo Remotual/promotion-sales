@@ -4,6 +4,7 @@ import user1 from '@/public/images/user_mika.svg'
 import linkedinImg from '@/public/images/linkedIN.svg'
 import mailImg from '@/public/images/mail.svg'
 import phoneImg from '@/public/images/phone.svg'
+import resumeImg from '@/public/images/resume.svg'
 import Link from 'next/link'
 
 export default function Contact(props) {
@@ -44,6 +45,16 @@ export default function Contact(props) {
                   :
                   ""               
                 } */}
+                {
+                  props.user?.profile?.resume !== "" && props.user?.profile?.resume !== undefined ?     
+                  // <div className='w-[26px] h-[26px] cursor-pointer'>
+                <Link href={props.user?.profile.resume} target='_blank'>
+                  <div className='text-[12px] font-[600] text-center uppercase ]'>Resume</div>
+                    </Link>
+                  // </div>
+                  :
+                  ""               
+                }
             </div>
             <div className='h-[2px] bg-[linear-gradient(90deg,_rgba(255,255,255,1)_0%,_rgba(136,136,136,0.3)_50%,_rgba(255,255,255,1)_100%)]'></div>
         <div className="mt-[10px] text-center"><Link href="https://remotual.com/pricing" target='_blank'><button className='w-[50%] border-none rounded-full py-2 px-10 mb-3 hover:bg-[#FF7A00] transition duration-500 ease-linear hover:text-white'>Hire Me</button></Link></div>
