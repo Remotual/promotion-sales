@@ -1235,7 +1235,129 @@ const dataJson = {
             description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
             youtubeLink: ""
         }
+    },
+    quincy: {
+        profile: {
+            image: imagePrefix + "Qunicy/quincy.png",
+            name: "Quincy Lawrence Dolloso",
+            designation: "Executive Assistant",
+            linkedin: "",
+            mail: "",
+            phoneNo: "",
+            hiremeLink: "https://remotual.com/pricing"
+        },
+        about: {
+            description: "As an Executive Assistant, I am dedicated to providing exceptional support and contributing to the success of the executive team and the organization as a whole. My ability to multitask, stay organized under pressure, and communicate effectively enables me to exceed expectations and drive positive outcomes. I am passionate about continuous learning and professional development, always seeking opportunities to enhance my skills and adapt to evolving business needs. Let’s connect and discuss how I can support your team and contribute to your organization’s success! ",
+            age: 28,
+            location: "Philippines",
+            availability: 40,
+            experience: 3
+        },
+        services: [
+            {
+                image: imagePrefix + "servicesIcons/admin.svg", 
+                title: "Admin Support and Process Creation",
+                description: "Provide comprehensive administrative support, including creating and implementing efficient processes to streamline operations and support business growth."
+            },
+            {
+                image: imagePrefix + "servicesIcons/planning.svg",
+                title: "Planning and Strategic Support",
+                description: "Planning and Strategic Support: Assist in strategic planning initiatives, contributing insights and support to optimize workflows and enhance organizational effectiveness. "
+            },
+            {
+                image: imagePrefix + "servicesIcons/vendor.svg",
+                title: "Vendor and Contract Management",
+                description: "Manage supplier relationships and contracts effectively, ensuring timely delivery of goods and services, cost efficiency, and compliance with agreements."
+            }
+        ],
+        trackRecord: {
+            clients: "50",
+            projects: "400",
+            experience: "3",
+            ratings: "5"
+        },
+        resume: {
+            experience: {
+                start: "April 20244",
+                end: "Present",
+                destination: "Executive Assistant",
+                companyName: "Remotual",
+                description: [
+                    "My responsibilities include providing tailored support to executives by analyzing complex issues and implementing solutions to enhance their workflows and decision-making.",
+                    "I manage data and information systems, ensuring accuracy and confidentiality while leveraging software proficiency to streamline administrative tasks.",
+                    "I creatively solve executive challenges, facilitate collaboration, and communicate effectively to align priorities.",
+                    "My role is focused on optimizing organizational efficiency, continuously learning, and delivering proactive support to drive executive success and strategic goals "
+                ]
+            },
+            education: {
+                start: "2017",
+                end: "",
+                degree: "Bachelor of Science in Medical technology ",
+                schoolName: "Far Eastern University MS Office",
+                description: [
+                    
+                ]
+            },
+            skills: [
+                {
+                    logo: imagePrefix + "companyLogos/office365.svg",
+                    name: "MS Office",
+                    level: imagePrefix + "Qunicy/Bar.svg"
+                },
+                {
+                    logo: imagePrefix + "companyLogos/Gsuite.svg",
+                    name: "Google Workspace",
+                    level: imagePrefix + "Qunicy/Bar-1.svg",
+                },
+                {
+                    logo: imagePrefix + "companyLogos/capcut.svg",
+                    name: "Capcut",
+                    level: imagePrefix + "Qunicy/Bar-2.svg"
+                }
+            ],
+            projectManagement: [
+                {
+                    logo: imagePrefix + "companyLogos/canva.svg",
+                    level: 7
+                },
+                {
+                    logo: imagePrefix + "companyLogos/asana.svg",
+                    level: 6,
+                },
+                {
+                    logo: imagePrefix + "companyLogos/notion.svg",
+                    level: 6
+                }
+            ],
+            hardSkills: [
+                "Problem-Solving",
+                "Data Entry and Organization",
+                "Office Software",
+                "Confidentiality",
+                "Design Sprint",
+                "Six Sigma"
+            ],
+            softSkills: [
+                "Analytical Thinking ",
+                "Adaptability",
+                "Creative Problem-Solving",
+                "Attention to Detail",
+                "Creative Problem-Solving",
+                "Continuous Improvement / Growth mindset"
+            ]
+        },
+        feedback: {
+            recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+            testimonials: [
+                
+            ]
+        },
+        videoPlaylist: {
+            description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+            youtubeLink: imagePrefix + "Qunicy/Quincy Intro video.mp4"
+        }
     }
+    
 
 }
 
