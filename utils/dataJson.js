@@ -1244,6 +1244,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
+            resume: imagePrefix + "Qunicy/quincy-Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -1342,7 +1343,6 @@ const dataJson = {
                 "Adaptability",
                 "Creative Problem-Solving",
                 "Attention to Detail",
-                "Creative Problem-Solving",
                 "Continuous Improvement / Growth mindset"
             ]
         },
