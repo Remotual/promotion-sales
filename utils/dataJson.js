@@ -1278,7 +1278,7 @@ const dataJson = {
         },
         resume: {
             experience: {
-                start: "April 20244",
+                start: "April 2024",
                 end: "Present",
                 destination: "Executive Assistant",
                 companyName: "Remotual",
@@ -1355,6 +1355,127 @@ const dataJson = {
         videoPlaylist: {
             description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
             youtubeLink: imagePrefix + "Qunicy/Quincy Intro video.mp4"
+        }
+    },
+    fran: {
+        profile: {
+            image: imagePrefix + "Fran/image.svg",
+            name: "Fran Banzuelo",
+            designation: "Executive Assistant",
+            linkedin: "",
+            mail: "",
+            phoneNo: "",
+            hiremeLink: "https://remotual.com/pricing"
+        },
+        about: {
+            description: "Hi, I’m Fran! In my role as an Executive Assistant, I deliver top-notch administrative assistance to executives and entrepreneurs alike. With a background spanning over two years, I've collaborated with clients across diverse industries, offering tailored support to meet their unique needs. My skill set includes managing email correspondence, scheduling meetings and appointments, travel management, and research. I am recognized for my reliability and dedication, empowering our team and my clients to reach their utmost potential, both personally and professionally.",
+            age: 30,
+            location: "Philippines",
+            availability: 40,
+            experience: 3
+        },
+        services: [
+            {
+                image: imagePrefix + "servicesIcons/inbox.svg", 
+                title: "Inbox Management",
+                description: "Efficiently handle and organize inbox, ensuring important messages are prioritized and responded to promptly."
+            },
+            {
+                image: imagePrefix + "servicesIcons/calendar.svg",
+                title: "Calendar Management",
+                description: "Efficient scheduling of appointments, meetings, and events, ensuring optimal use of your time and resources."
+            },
+            {
+                image: imagePrefix + "servicesIcons/travel.svg",
+                title: "Travel Management",
+                description: "Handling travel arrangements, from booking flights and accommodations to coordinating transportation and ensuring smooth travel experiences."
+            },
+            {
+                image: imagePrefix + "servicesIcons/research.svg",
+                title: "Research",
+                description: "Conduct thorough and insightful research on various topics to support informed decision-making processes."
+            }
+        ],
+        trackRecord: {
+            clients: "50",
+            projects: "400",
+            experience: "3",
+            ratings: "5"
+        },
+        resume: {
+            experience: {
+                start: "April 2024",
+                end: "Present",
+                destination: "Executive Assistant",
+                companyName: "Remotual",
+                description: [
+                    "I provide comprehensive administrative support to the CEO and management team.",
+                    "This includes managing inbox, scheduling and coordination of appointments and meetings, arrange and coordinate travel arrangements, and other administrative task such as data entry and research.",
+                    "I maintain strict confidentiality of sensitive information throughout these responsibilities."
+                ]
+            },
+            education: {
+                start: "2014",
+                end: "",
+                degree: "Bachelor of Science in Hotel and Restaurant Management ",
+                schoolName: "Our Lady of Fatima University",
+                description: [
+                    
+                ]
+            },
+            skills: [
+                {
+                    logo: imagePrefix + "companyLogos/office365.svg",
+                    name: "MS Office",
+                    level: imagePrefix + "Qunicy/Bar.svg"
+                },
+                {
+                    logo: imagePrefix + "companyLogos/Gsuite.svg",
+                    name: "Google Workspace",
+                    level: imagePrefix + "Qunicy/Bar-1.svg",
+                },
+                {
+                    logo: imagePrefix + "companyLogos/capcut.svg",
+                    name: "Capcut",
+                    level: imagePrefix + "Qunicy/Bar-2.svg"
+                }
+            ],
+            projectManagement: [
+                {
+                    logo: imagePrefix + "companyLogos/canva.svg",
+                    level: 7
+                },
+                {
+                    logo: imagePrefix + "companyLogos/asana.svg",
+                    level: 6,
+                },
+                {
+                    logo: imagePrefix + "companyLogos/notion.svg",
+                    level: 6
+                }
+            ],
+            hardSkills: [
+                "Proficient in Microsoft Office Suite and Google Workspace",
+                "Familiarity with project management tools like Asana and Notion",
+                "Ability to create and maintain organizational systems for documents and files",
+                "Efficiently conducting research and gathering information"
+            ],
+            softSkills: [
+                "Excellent communication skills, both written and verbal",
+                "Interpersonal skills for building relationships with executives and team members ",
+                "Organizational abilities ",
+                "Discretion and confidentiality in handling sensitive information "
+            ]
+        },
+        feedback: {
+            recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+            testimonials: [
+                
+            ]
+        },
+        videoPlaylist: {
+            description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+            youtubeLink: imagePrefix + "Fran/Fran-intro.mp4"
         }
     }
     
