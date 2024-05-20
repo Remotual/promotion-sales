@@ -122,6 +122,24 @@ const dataJson = {
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "team_profile6.svg",
                     redirect_url: "/profile/mudassar"
+                },
+                {
+                    name:"Beauty Lopez",
+                    title:"SR. Client Success Manager at Remotual",
+                    image: imagePrefix + "beauty.svg",
+                    redirect_url: "/profile/beauty"
+                },
+                {
+                    name: "Quincy Dolloso",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "quincy.svg",
+                    redirect_url: "/profile/quincy"
+                },
+                {
+                    name: "Fran Banzuelo",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "fran.svg",
+                    redirect_url: "/profile/fran"
                 }
             ]
         },
@@ -1478,8 +1496,6 @@ const dataJson = {
             youtubeLink: imagePrefix + "Fran/Fran-intro.mp4"
         }
     }
-    
-
 }
 
 export default dataJson;
