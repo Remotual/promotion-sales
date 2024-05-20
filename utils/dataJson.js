@@ -125,7 +125,7 @@ const dataJson = {
                 },
                 {
                     name:"Beauty Lopez",
-                    title:"SR. Client Success Manager at Remotual",
+                    title:"Sr. Client Success Manager at Remotual",
                     image: imagePrefix + "beauty.svg",
                     redirect_url: "/profile/beauty"
                 },
