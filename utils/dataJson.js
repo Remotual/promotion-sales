@@ -100,30 +100,6 @@ const dataJson = {
                     redirect_url: "/profile/carlota"
                 },
                 {
-                    name:"Hoda A.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile3.svg",
-                    redirect_url: "/profile/hoda"
-                },
-                {
-                    name:"Jae D.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile5.svg",
-                    redirect_url: "/profile/jae"
-                },
-                {
-                    name:"Jacqueline M.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile4.svg",
-                    redirect_url: "/profile/jacqueline"
-                },
-                {
-                    name:"Mudassar A.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile6.svg",
-                    redirect_url: "/profile/mudassar"
-                },
-                {
                     name:"Beauty Lopez",
                     title:"Sr. Client Success Manager at Remotual",
                     image: imagePrefix + "beauty.svg",
@@ -136,10 +112,34 @@ const dataJson = {
                     redirect_url: "/profile/quincy"
                 },
                 {
+                    name:"Jacqueline M.",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "team_profile4.svg",
+                    redirect_url: "/profile/jacqueline"
+                },
+                {
                     name: "Fran Banzuelo",
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "fran.svg",
                     redirect_url: "/profile/fran"
+                },
+                {
+                    name:"Jae D.",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "team_profile5.svg",
+                    redirect_url: "/profile/jae"
+                },
+                {
+                    name:"Hoda A.",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "team_profile3.svg",
+                    redirect_url: "/profile/hoda"
+                },
+                {
+                    name:"Mudassar A.",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "team_profile6.svg",
+                    redirect_url: "/profile/mudassar"
                 }
             ]
         },
