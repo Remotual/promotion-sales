@@ -8,7 +8,7 @@ const testimonials = [
     name: "DENIS OAKLEY",
     title: "CEO @ DENIS OAKLEY & CO LIMITED",
     image:
-      "https://ik.imagekit.io/dwn97duqt/Advantage%20Remotual/denis_oakley_thumbnail.webp?updatedAt=1717074545854",
+      "https://remotual.com/wp-content/uploads/2023/06/denis_oakley_thumbnail.webp",
     video:
       "https://remotual.com/wp-content/uploads/2023/06/Denis-Video-Testimonial-Compressed.mp4",
   },
@@ -16,7 +16,7 @@ const testimonials = [
     name: "DR. MOHAMMAD OSMAN",
     title: "Medical Director/Chief Medical Officer UPMC/WVU Health",
     image:
-      "https://ik.imagekit.io/dwn97duqt/Advantage%20Remotual/dr_mohammad_osman_thumbnail.webp?updatedAt=1717074545761",
+      "https://remotual.com/wp-content/uploads/2023/06/dr_mohammad_osman_thumbnail.webp",
     video:
       "https://remotual.com/wp-content/uploads/2023/05/MVM-Testimonial-Video-Compressed.mp4",
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: "ELIZABETH SMITH",
     title: "General Counsel",
     image:
-      "https://ik.imagekit.io/dwn97duqt/Advantage%20Remotual/elizabeth_smith_thumbnail.webp?updatedAt=1717074546059",
+      "https://remotual.com/wp-content/uploads/2023/06/elizabeth_smith_thumbnail.webp",
     video:
       "https://remotual.com/wp-content/uploads/2023/06/Massey-Martin-Testimonial-Video-Compressed.mp4",
   },
@@ -32,7 +32,7 @@ const testimonials = [
     name: "DR. JAMES",
     title: "PISTILS & POLLEN",
     image:
-      "https://ik.imagekit.io/dwn97duqt/Advantage%20Remotual/Dr.%20james%20Thumbnail.jpg?updatedAt=1717699204569",
+      "https://remotual.com/wp-content/uploads/2024/06/Dr.-james-Thumbnail.jpg",
     video:
       "https://remotual.com/wp-content/uploads/2024/06/Pistils-Pollen-Testimonial-Video-Compressed-without-subtitles.mp4",
   },
@@ -40,7 +40,7 @@ const testimonials = [
     name: "ERINN & MARION",
     title: "REGENERATIVE CHANGEMAKING",
     image:
-      "https://ik.imagekit.io/dwn97duqt/Advantage%20Remotual/Regenerative?updatedAt=1717700244276",
+      "https://remotual.com/wp-content/uploads/2024/06/Regenerative-1-1.jpg",
     video:
       "https://remotual.com/wp-content/uploads/2024/06/Client-Testimonial-from-Regenerative-Changemaking.mp4",
   },
@@ -48,7 +48,7 @@ const testimonials = [
     name: "DANIEL F.",
     title: "THE GREEN HOUSER",
     image:
-      "https://ik.imagekit.io/dwn97duqt/Advantage%20Remotual/GreenHouser.jpg?updatedAt=1717699204515",
+      "https://remotual.com/wp-content/uploads/2024/06/GreenHouser-1.jpg",
     video:
       "https://remotual.com/wp-content/uploads/2024/06/Client-Testimonial-from-TheGreeenHouse.mp4",
   },
