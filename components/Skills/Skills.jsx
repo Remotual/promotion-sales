@@ -18,7 +18,7 @@ export default function Skills(props) {
   return (
     <div className="lg:mt-0 lg:shadow-none lg:pl-[30px] lg:pr-[60px] bg-white mt-[40px] p-[20px] rounded-lg overflow-hidden shadow-[3.24px_3.24px_8.09px_0px_rgba(0,0,0,0.10)]">
       <div className="relative mb-3">
-          <div  className='relative right-[10px] bottom-[1px] z-0'><Image src={headCircle}></Image></div>
+          <div  className='relative right-[10px] bottom-[1px] z-0'><Image src={headCircle} alt=""></Image></div>
           <p className='text-[20px] absolute top-0 z-10 font-semibold'><span className='text-[#FF7A00] '>My </span>Skills</p>
       </div>
 
@@ -27,7 +27,7 @@ export default function Skills(props) {
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 gap-7 mt-7 mb-4">
         <div >
           <div className="flex gap-3 items-center">
-            <Image src={design}></Image>
+            <Image src={design} alt=""></Image>
             <p className="text-[18px] font-semibold">Design</p>
           </div>
 
@@ -44,7 +44,7 @@ export default function Skills(props) {
                       <img src={skill.logo} />
                       <p className=" text-[15px] font-medium">{skill.name}</p>
                     </div>
-                    <img className="w-full" src={skill.level} />
+                    <img className="w-full" src={skill.level} alt="" />
                   </div>
                 )
               })
@@ -54,7 +54,7 @@ export default function Skills(props) {
 
         <div>
           <div className="flex gap-3 items-center ">
-            <Image src={projectManagement}></Image>
+            <Image src={projectManagement} alt=""></Image>
             <p className="text-[18px] font-semibold">Project Management</p>
           </div>
 
@@ -74,8 +74,8 @@ export default function Skills(props) {
                           return(
                             
                             value <= skill.level ?
-                            <Image key={value} src={orangedot}></Image>:
-                            <Image key={value} src={graydot}></Image>
+                            <Image key={value} src={orangedot} alt=""></Image>:
+                            <Image key={value} src={graydot} alt=""></Image>
                             
                           )
                         })
@@ -134,7 +134,7 @@ export default function Skills(props) {
 
         <div>
           <div className="flex gap-3 items-center">
-            <Image src={harskills}></Image>
+            <Image src={harskills} alt=""></Image>
             <p className="text-[18px] font-semibold">Hard Skills</p>
           </div>
 
@@ -147,7 +147,7 @@ export default function Skills(props) {
               props.user?.resume.hardSkills.map((skill, index) => {
                 return (
                   <div key={index} className="flex gap-4">
-                    <Image src={checked}></Image>
+                    <Image src={checked} alt=""></Image>
                     <p className=" text-[15px] font-medium">{skill}</p>
                   </div>
                 )

@@ -76,11 +76,11 @@ export default function AboutVideo(props) {
                   <div className="bg-[#FFEBD9] px-1 py-[4px] h-fit rounded-full flex gap-1">
                     <Image
                       onClick={changePlay}
-                      src={play ? pausebtn : playBtn}
+                      src={play ? pausebtn : playBtn} alt=""
                     ></Image>
                     <Image
                       onClick={changeMute}
-                      src={mute ? unmutebtn : muteBtn}
+                      src={mute ? unmutebtn : muteBtn} alt=""
                     ></Image>
                   </div>
                 </div>

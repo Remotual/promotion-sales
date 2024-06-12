@@ -75,7 +75,7 @@ export default function Slider(props) {
                             <>
                               {
                                 testimonial.star >= number + 1 ?
-                                  <Image key={number} src={star}></Image>
+                                  <Image key={number} src={star} alt=""></Image>
                                   :
                                   ""
                               }

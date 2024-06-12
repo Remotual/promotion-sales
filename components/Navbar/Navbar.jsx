@@ -12,7 +12,7 @@ import HamburgerDropdown from "../HamburgerDropdown/HamburgerDropdown";
 const dropdown1Items = [
   {
     title: "About Us",
-    url: "https://remotual.com/homelanding-2/",
+    url: "https://remotual.com/about/",
   },
   {
     title: "Case Studies",
@@ -66,7 +66,7 @@ export default function Navbar() {
       <div className="flex w-11/12 mx-auto justify-between py-4">
         <div className="flex items-center cursor-pointer w-[100px] xl:w-[175px] lg:w-[150px]  md:w-[125px]">
           <Link href={"/"}>
-            <Image src={logo} />
+            <Image src={logo} alt=""/>
           </Link>
         </div>
 
@@ -82,7 +82,7 @@ export default function Navbar() {
             >
               <p>Why Remotual</p>
               <div className={dropdown1 ? "w-[8px] rotate-180" : "w-[8px]"}>
-                <Image src={arrowOrange} />
+                <Image src={arrowOrange} alt=""/>
               </div>
             </div>
             <div className={dropdown1 ? "block" : "hidden h-28"}>
@@ -107,7 +107,7 @@ export default function Navbar() {
                   dropdown2 ? "w-[8px] rotate-180 text-[#FF7A00]" : "w-[8px]"
                 }
               >
-                <Image src={arrowOrange} />
+                <Image src={arrowOrange} alt=""/>
               </div>
             </div>
 
@@ -115,10 +115,6 @@ export default function Navbar() {
               <Dropdown data={dropdown2Items} />
             </div>
           </div>
-
-          {/* <div className="cursor-pointer text-[#FF7A00]">
-            Client Success
-          </div> */}
         </div>
 
         <div className="bg-[#FF7A00] p-5 rounded-lg text-white cursor-pointer" onClick={() => { window.location.href ="https://remotual.com/pricing/"}}>
@@ -126,7 +122,7 @@ export default function Navbar() {
         </div>
 
         <div onClick={toggleHamburger} className="flex items-center lg:hidden">
-          <Image src={hamburger} />
+          <Image src={hamburger} alt=""/>
         </div>
       </div>
 

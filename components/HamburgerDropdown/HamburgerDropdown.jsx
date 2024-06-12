@@ -74,7 +74,7 @@ export default function HamburgerDropdown(props) {
           <div
             className={dropdown1 ? "w-[8px] rotate-180 ml-2" : "w-[8px] ml-2"}
           >
-            <Image src={dropdown1 ? arrowWhite : arrowOrange} />
+            <Image src={dropdown1 ? arrowWhite : arrowOrange} alt="" />
           </div>
         </div>
 
@@ -110,7 +110,7 @@ export default function HamburgerDropdown(props) {
                 : "w-[8px] ml-2"
             }
           >
-            <Image src={dropdown2 ? arrowWhite : arrowOrange} />
+            <Image src={dropdown2 ? arrowWhite : arrowOrange} alt="" />
           </div>
         </div>
 

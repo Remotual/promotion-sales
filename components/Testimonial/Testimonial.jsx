@@ -14,7 +14,7 @@ export default function Testimonial(props) {
         props.user?.feedback.testimonials.length > 0 ?
           <div className="lg:mt-0 lg:shadow-none lg:pl-[30px] lg:pr-[60px] bg-white mt-[40px] p-[20px] rounded-lg overflow-hidden shadow-[3.24px_3.24px_8.09px_0px_rgba(0,0,0,0.10)]">
             <div className="relative mb-3">
-                  <div  className='relative right-[10px] bottom-[1px] z-0'><Image src={headCircle}></Image></div>
+                  <div  className='relative right-[10px] bottom-[1px] z-0'><Image src={headCircle} alt=""></Image></div>
                   <p className='text-[20px] absolute top-0 z-10 font-semibold'><span className='text-[#FF7A00] '>Testimonials</span></p>
               </div>
 
@@ -22,7 +22,7 @@ export default function Testimonial(props) {
 
             <div className="relative mt-5" >
               <div>
-                <Image src={commaStart}></Image>
+                <Image src={commaStart} alt=""></Image>
               </div>
               
                   <Slider
@@ -31,11 +31,10 @@ export default function Testimonial(props) {
                   
               
               <div className="absolute right-0  top-3/4 flex justify-end">
-                <Image src={commaEnd}></Image>
+                <Image src={commaEnd} alt=""></Image>
               </div>
             </div>
 
-            
           </div>
             :
           ""

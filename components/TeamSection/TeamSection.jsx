@@ -11,7 +11,7 @@ export default function TeamSection() {
   return (
     <>
         <div className='bg-[#222222]'>
-            <div className='w-full'><Image src={teamUpper} height={2000} width={2000} ></Image></div>
+            <div className='w-full'><Image src={teamUpper} height={2000} width={2000} alt=""></Image></div>
             <div className='h-[fit-content] w-11/12 m-auto'>
                 <div className='text-center mt-[50px]'>
                     <div className='text-[#FF7A00] text-[34px] font-semibold'>Your Team Success.</div>
@@ -23,7 +23,7 @@ export default function TeamSection() {
                         dataJson.salesPage.teams.team.map((team, index) => {
                             return(
                                 <div key={index} className="bg-white sw:w-full px-[20px] my-4 py-[18px] rounded-[18px] flex justify-center items-center md:m-auto">
-                                    <div className='h-[100px] w-[100px] rounded-full'><Image src={team.image} height={1000} width={1000}></Image></div>
+                                    <div className='h-[100px] w-[100px] rounded-full'><Image src={team.image} height={1000} width={1000} alt=""></Image></div>
                                     <div className='ml-[20px]'>
                                         <div className='text-[18px] font-semibold'>{team.name}</div>
                                         <div className='text-[14px]'>{team.title}</div>
@@ -105,7 +105,7 @@ export default function TeamSection() {
                     </Link>
                 </div>
             </div> */}
-            <div className='mt-[60px] md:mt-0'><Image src={teamDown} height={2000} width={2000} ></Image></div>
+            <div className='mt-[60px] md:mt-0'><Image src={teamDown} height={2000} width={2000} alt=""></Image></div>
         </div>
     </>
   )

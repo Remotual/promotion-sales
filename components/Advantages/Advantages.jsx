@@ -109,11 +109,11 @@ export default function Advantages(company) {
                   >
                     {tabValue === "tab1" ? (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={advanced} height={100} width={100}></Image>
+                        <Image src={advanced} height={100} width={100} alt=""></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={advanced} height={100} width={100}></Image>
+                        <Image src={advanced} height={100} width={100} alt=""></Image>
                       </div>
                     )}
                   </div>
@@ -129,11 +129,11 @@ export default function Advantages(company) {
                   >
                     {tabValue === "tab2" ? (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={lockFocus} height={100} width={100}></Image>
+                        <Image src={lockFocus} height={100} width={100} alt=""></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={lock} height={100} width={100}></Image>
+                        <Image src={lock} height={100} width={100} alt=""></Image>
                       </div>
                     )}
                   </div>

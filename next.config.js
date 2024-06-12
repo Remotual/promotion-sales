@@ -8,9 +8,12 @@ const nextConfig = {
         port: "",
       },
       {
-        protocol: 'https',
-        hostname: 'salesdeck.c10oc6moksyd.us-east-1.rds.amazonaws.com',
-        port: '3306',
+        protocol: "https",
+        hostname: "salesdeck.c10oc6moksyd.us-east-1.rds.amazonaws.com",
+        port: "3306",
+      },
+      {
+        hostname: "ik.imagekit.io",
       },
     ],
   },

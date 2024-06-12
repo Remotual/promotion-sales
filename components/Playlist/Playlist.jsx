@@ -91,7 +91,7 @@ export default function Playlist() {
       </div>
       {domLoaded && (
         <div className="flex flex-col lg:flex-row justify-between relative my-10 lg:border border-[#FF7A00] rounded-[25px]  w-full">
-          <div className="m-2 p-1 lg:p-0 lg:w-[65%] rounded-[20px] overflow-hidden relative lg:border border-[#FF7A00]" style={{"aspect-ratio": "16 / 9", "width": "100%;"}}>
+          <div className="m-2 p-1 lg:p-0 lg:w-[65%] rounded-[20px] overflow-hidden relative lg:border border-[#FF7A00]" style={{"aspectRatio": "16 / 9", "width": "100%"}}>
             <ReactPlayer
               url={currentVideo.url}
               width="100%"
@@ -109,10 +109,12 @@ export default function Playlist() {
                 <Image
                   onClick={changePlay}
                   src={play ? pausebtn : playBtn}
+                  alt=""
                 ></Image>
                 <Image
                   onClick={changeMute}
                   src={mute ? unmutebtn : muteBtn}
+                  alt=""
                 ></Image>
               </div>
             </div>

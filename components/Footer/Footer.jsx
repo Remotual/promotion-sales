@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="lg:flex lg:justify-between bg-[#222222] w-11/12 mx-auto pt-[50px] pb-10">
             <div className="lg:w-[50%]">
               <div>
-                <Image src={logo} />
+                <Image src={logo} alt=""/>
               </div>
               <div className=" text-sm text-[#FFF] mt-[20px]">
                 <p>Do what you do best. Let us handle the rest! </p>
@@ -76,10 +76,10 @@ export default function Footer() {
               © 2023 Remotual. All Rights Reserved
             </p>
             <div className="hidden lg:flex justify-center items-center gap-4">
-              <Link href="http://linkedin.com/company/remotual" target="_blank"><Image className="cursor-pointer" src={linkedin}></Image></Link>
-              <Link href="https://twitter.com/remotual" target="_blank"><Image className="cursor-pointer" src={twitter}></Image></Link>
-              <Link href="https://facebook.com/Remotual" target="_blank"><Image className="cursor-pointer" src={facebook}></Image></Link>
-              <Link href="https://instagram.com/remotual" target="_blank"><Image className="cursor-pointer" src={instagram}></Image></Link>
+              <Link href="http://linkedin.com/company/remotual" target="_blank"><Image className="cursor-pointer" src={linkedin} alt=""></Image></Link>
+              <Link href="https://twitter.com/remotual" target="_blank"><Image className="cursor-pointer" src={twitter} alt=""></Image></Link>
+              <Link href="https://facebook.com/Remotual" target="_blank"><Image className="cursor-pointer" src={facebook} alt=""></Image></Link>
+              <Link href="https://instagram.com/remotual" target="_blank"><Image className="cursor-pointer" src={instagram} alt=""></Image></Link>
             </div>
           </div>
         </div>

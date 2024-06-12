@@ -19,7 +19,7 @@ export default function Features(props) {
                             <div key={index}>
                                 <div className="flex justify-center items-center">
                                     <div className="bg-[#FFF5EC] p-4 rounded-full">
-                                        <div className='w-[25px] h-[25px] text-orange-600'><Image src={props.image} height={100} width={100}></Image></div>
+                                        <div className='w-[25px] h-[25px] text-orange-600'><Image src={props.image} height={100} width={100} alt=""></Image></div>
                                     </div>
                                     <div className="font-[300] ml-2 text-[16px]">
                                         <p>{parse(detail)}</p>

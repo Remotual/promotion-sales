@@ -144,11 +144,17 @@ export default function HeroSection() {
                           src={valueFocus}
                           height={100}
                           width={100}
+                          alt=""
                         ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={value} height={100} width={100}></Image>
+                        <Image
+                          src={value}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
@@ -164,11 +170,21 @@ export default function HeroSection() {
                   >
                     {tabValue === "tab2" ? (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={lockFocus} height={100} width={100}></Image>
+                        <Image
+                          src={lockFocus}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={lock} height={100} width={100}></Image>
+                        <Image
+                          src={lock}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
@@ -184,11 +200,21 @@ export default function HeroSection() {
                   >
                     {tabValue === "tab3" ? (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={timeFocus} height={100} width={100}></Image>
+                        <Image
+                          src={timeFocus}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={time} height={100} width={100}></Image>
+                        <Image
+                          src={time}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
@@ -208,6 +234,7 @@ export default function HeroSection() {
                           src={protectionFocus}
                           height={100}
                           width={100}
+                          alt=""
                         ></Image>
                       </div>
                     ) : (
@@ -216,6 +243,7 @@ export default function HeroSection() {
                           src={protection}
                           height={100}
                           width={100}
+                          alt=""
                         ></Image>
                       </div>
                     )}
@@ -232,11 +260,21 @@ export default function HeroSection() {
                   >
                     {tabValue === "tab5" ? (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={plugFocus} height={100} width={100}></Image>
+                        <Image
+                          src={plugFocus}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={plug} height={100} width={100}></Image>
+                        <Image
+                          src={plug}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
@@ -256,11 +294,17 @@ export default function HeroSection() {
                           src={browserFocus}
                           height={100}
                           width={100}
+                          alt=""
                         ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={browser} height={100} width={100}></Image>
+                        <Image
+                          src={browser}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
@@ -280,11 +324,17 @@ export default function HeroSection() {
                           src={dollarFocus}
                           height={100}
                           width={100}
+                          alt=""
                         ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={dollar} height={100} width={100}></Image>
+                        <Image
+                          src={dollar}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
@@ -304,11 +354,17 @@ export default function HeroSection() {
                           src={globeFocus}
                           height={100}
                           width={100}
+                          alt=""
                         ></Image>
                       </div>
                     ) : (
                       <div className="w-[25px] h-[25px]">
-                        <Image src={globe} height={100} width={100}></Image>
+                        <Image
+                          src={globe}
+                          height={100}
+                          width={100}
+                          alt=""
+                        ></Image>
                       </div>
                     )}
                   </div>
