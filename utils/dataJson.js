@@ -180,6 +180,7 @@ const dataJson = {
             linkedin: "https://www.linkedin.com/in/mikka-mae-unabia-02766810a/",
             mail: "mikka.unabia@remotual.com",
             phoneNo: "09456475104",
+            resume: imagePrefix + "Remotual%20Resumes/Mikka%20Remotual%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -323,6 +324,7 @@ const dataJson = {
             linkedin: "https://www.linkedin.com/in/carlota-acobera-6a2150200/",
             mail: "carlota.acobera@remotual.com",
             phoneNo: "09606113442",
+            resume: imagePrefix + "Remotual%20Resumes/Carlota%20Remotual%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -621,6 +623,7 @@ const dataJson = {
             designation: "EXECUTIVE ASSISTANT",
             linkedin: "",
             mail: "jacq.meneses@remotual.com",
+            resume: imagePrefix + "Remotual%20Resumes/Jacq%20Remotual%20Resume.pdf",
             phoneNo: "09275526175",
             hiremeLink: "https://remotual.com/pricing"
         },
@@ -1114,7 +1117,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
-            resume: imagePrefix + "Beauty/beautyResume.pdf",
+            resume: imagePrefix + "Remotual%20Resumes/Beauty%20Remotual%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -1262,7 +1265,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
-            resume: imagePrefix + "Qunicy/quincy-Resume.pdf",
+            resume: imagePrefix + "Remotual%20Resumes/Quincy%20Dolloso%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -1383,6 +1386,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
+            resume: imagePrefix + "Remotual%20Resumes/Fran%20Banzuelo%20-%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
