@@ -1386,7 +1386,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
-            resume: imagePrefix + "Remotual%20Resumes/Fran%20Banzuelo%20-%20Resume.pdf",
+            resume: imagePrefix + "Remotual%20Resumes/Fran%20Remotual%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
