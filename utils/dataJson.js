@@ -1499,7 +1499,153 @@ const dataJson = {
             description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
             youtubeLink: imagePrefix + "Fran/Fran-intro.mp4"
         }
-    }
+    },
+    ankit: {
+        profile: {
+            image: imagePrefix + "ankit/profileImage.svg",
+            name: "Ankit Singh",
+            designation: "MARKETING AUTOMATION MANAGER",
+            linkedin: "",
+            mail: "",
+            phoneNo: "",
+            resume: imagePrefix + "ankit/resume.pdf",
+            hiremeLink: "https://remotual.com/pricing"
+        },
+        about: {
+            description: "Hi, I'm Ankit! A seasoned digital marketing professional with over a decade of experience driving successful campaigns and automations across diverse industries. Based in Indore, India, I specialize in developing and executing comprehensive marketing strategies that align with business objectives and leverage cutting-edge tools and techniques.",
+            age: 35,
+            location: "Indore, India",
+            availability: 40,
+            experience: 13
+        },
+        services: [
+            {
+                image: imagePrefix + "ankit/fbAds.svg", 
+                title: "Facebook/ Insta Ads",
+                description: "Harness the power of social media with expertly crafted Facebook and Instagram ads. From targeting specific demographics to creating eye-catching visuals and compelling copy, I ensure your ads reach and resonate with your ideal audience, driving engagement and conversions."
+            },
+            {
+                image: imagePrefix + "ankit/funnel.svg",
+                title: "Funnel Design",
+                description: "Transform your lead generation and conversion processes with custom-designed marketing funnels. I create seamless, high-converting funnels that guide your prospects through each stage of the buyer's journey, from awareness to purchase, ensuring maximum conversion rates."
+            },
+            {
+                image: imagePrefix + "ankit/googleAds.svg",
+                title: "Google Ads Setup and Optimization",
+                description: "Maximize your online visibility with a meticulously set up and optimized Google Ads campaign. I focus on keyword research, ad copy creation, and continuous monitoring to ensure your ads deliver high-quality traffic and a strong return on investment."
+            },
+            {
+                image: imagePrefix + "ankit/emailAutomations.svg",
+                title: "Email Automations",
+                description: "Enhance your email marketing strategy with sophisticated automation. I develop personalized email sequences that nurture leads, engage customers, and drive sales, all while saving you time and ensuring consistent communication with your audience."
+            },
+            {
+                image: imagePrefix + "ankit/marketingAutomation.svg",
+                title: "Marketing Automation",
+                description: "Streamline and elevate your marketing efforts with advanced automation solutions. From lead generation and scoring to personalized content delivery and performance tracking, I implement systems that boost efficiency and effectiveness, allowing you to focus on growing your business."
+            },
+            {
+                image: imagePrefix + "ankit/crmSetup.svg",
+                title: "CRM Setup and Customization",
+                description: "Optimize your customer relationship management with a tailored CRM setup and customization. I configure your CRM to suit your unique business needs, ensuring seamless integration with your processes, enhancing customer interactions, and providing valuable insights to drive growth"
+            }
+        ],
+        trackRecord: {
+            clients: "50",
+            projects: "400",
+            experience: "1  3",
+            ratings: "5"
+        },
+        resume: {
+            experience: {
+                start: "Dec 2023",
+                end: "Present",
+                destination: "SR. MARKETING MANAGER",
+                companyName: "Remotual",
+                description: [
+                    "Campaign Leadership: Led a team in executing cross-channel campaigns, increasing client engagement by 40% and improving satisfaction by 50%.",
+                    "Ad Campaigns Management: Managed ad campaigns on Meta, Google, and TikTok, enhancing CTR and ROAS with advanced targeting techniques.",
+                    "Creative Strategy: Boosted CTR by 25% through innovative ad content and strategic A/B testing.",
+                    "Marketing Automation: Reduced manual tasks by 30% using HubSpot, GoHighLevel, Zapier, and Make, enhancing workflow efficiency.",
+                    "Data-Driven Strategy: Utilized Google Analytics and Facebook Insights to refine strategies, achieving a 35% increase in ROI.",
+                    "Team Leadership: Mentored and developed a high-performing marketing team, fostering creativity and collaboration."
+                ]
+            },
+            education: {
+                start: "2009",
+                end: "",
+                degree: "Computer Science & Engineering",
+                schoolName: "Rajiv Gandhi Technical University",
+                description: [
+                    "Major in Marketing "
+                ]
+            },
+            skills: [
+                {
+                    logo: imagePrefix + "companyLogos/trello.svg",
+                    name: "Trello",
+                    level: imagePrefix + "ankit/Bar.svg"
+                },
+                {
+                    logo: imagePrefix + "companyLogos/Gsuite.svg",
+                    name: "Google Suite",
+                    level: imagePrefix + "ankit/Bar-1.svg",
+                },
+                {
+                    logo: "",
+                    name: "Meta Business",
+                    level: imagePrefix + "ankit/Bar-2.svg"
+                },
+                {
+                    logo: "",
+                    name: "SEO",
+                    level: imagePrefix + "ankit/Bar-2.svg"
+                }
+            ],
+            projectManagement: [
+                {
+                    logo: imagePrefix + "companyLogos/trello.svg",
+                    level: 8
+                },
+                {
+                    logo: imagePrefix + "companyLogos/asana.svg",
+                    level: 8,
+                },
+                {
+                    logo: imagePrefix + "companyLogos/zapierPNG.png",
+                    level: 8
+                },
+                {
+                    logo: imagePrefix + "companyLogos/hubspot.svg",
+                    level: 8
+                }
+            ],
+            hardSkills: [
+                "Developing Customizable and flexible process flows",
+                "Skills Gap Analysis    ",
+                "Lean six sigma",
+                "Workflow Automation",
+                "Marketing & Operations"
+            ],
+            softSkills: [
+                "Process Improvement",
+                "Work – life – Balance",
+                "Client Interaction",
+                "Customer Satisfaction",
+                "Engagement activities"
+            ]
+        },
+        feedback: {
+            recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+            testimonials: [
+                
+            ]
+        },
+        videoPlaylist: {
+            description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+            youtubeLink: ""
+        }
+    },
 }
 
 export default dataJson;
