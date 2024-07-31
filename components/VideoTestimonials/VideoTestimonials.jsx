@@ -52,6 +52,13 @@ const testimonials = [
     video:
       "https://remotual.com/wp-content/uploads/2024/06/Client-Testimonial-from-TheGreeenHouse.mp4",
   },
+  {
+    name: "Paul",
+    title: "Kidventure Studio",
+    image:
+      "https://cdn.remotual.com/testimonials/Paul.jpg ",
+    video:"https://cdn.remotual.com/testimonials/paulTestimonialVideo.mp4"
+  },  
 ];
 
 export default function VideoTestimonials() {
