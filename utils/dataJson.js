@@ -1653,7 +1653,7 @@ const dataJson = {
             designation: "Executive Assistant",
             linkedin: "",
             mail: "",
-            phoneNo: "",
+            phoneNo: "" ,
             resume: imagePrefix + "thuvaragha/resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
