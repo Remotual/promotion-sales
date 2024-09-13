@@ -1646,6 +1646,147 @@ const dataJson = {
             youtubeLink: imagePrefix + "ankit/AnkitVideo.mp4"
         }
     },
+    thuvaragha: {
+        profile: {
+            image: imagePrefix + "thuvaragha/image.svg",
+            name: "Thuvaragha Y.",
+            designation: "Executive Assistant",
+            linkedin: "",
+            mail: "",
+            phoneNo: "",
+            resume: imagePrefix + "thuvaragha/resume.pdf",
+            hiremeLink: "https://remotual.com/pricing"
+        },
+        about: {
+            description: "I am a seasoned virtual assistance professional with extensive experience in strategic planning, digital marketing, and operations management. With a proven track record in building client relationships, executing successful marketing campaigns, and developing compelling content,   I am passionate about fostering growth and efficiency in dynamic environments.",
+            age: 3,
+            location: "Sri Lanka",
+            availability: 40,
+            experience: 5
+        },
+        services: [
+            {
+                image: imagePrefix + "servicesIcons/strategic_planning.svg", 
+                title: "Strategic Planning",
+                description: "I have hands-on experience in developing and executing strategic plans that align with organizational goals, drive growth, and optimize resource allocation for maximum impact."
+            },
+            {
+                image: imagePrefix + "servicesIcons/digital_marketing.svg",
+                title: "Digital Marketing",
+                description: "Proficient in developing and executing innovative digital marketing strategies that enhance brand visibility, engagement, and customer acquisition through various online channels."
+            },
+            {
+                image: imagePrefix + "servicesIcons/opeartions_management.svg",
+                title: "Operations Management",
+                description: "Skilled in streamlining operations, enhancing workflow efficiency, and managing cross-functional teams to achieve business objectives and improve overall performance."
+            },
+            {
+                image: imagePrefix + "servicesIcons/content_deve.svg",
+                title: "Content Development",
+                description: "Adept at creating engaging and impactful content that resonates with target audiences, strengthens brand messaging, and drives marketing initiatives forward."
+            }
+        ],
+        trackRecord: {
+            clients: "7",
+            projects: "25",
+            experience: "5",
+            ratings: "5"
+        },
+        resume: {
+            experience: {
+                start: "August 2024",
+                end: "Present",
+                destination: "Executive Assistant",
+                companyName: "Remotual",
+                description: [
+                    "Providing comprehensive administrative support, such as drafting communications, managing calendars, organizing meetings, and handling travel arrangements to ensure seamless operations.",
+                    "Managing client interactions and requests across multiple channels with empathy and professionalism, while collaborating with cross-functional teams to address needs efficiently.",
+                    "Planning, developing, and executing strategies for social media accounts and preparing reports, pitch decks, and research materials using various software tools."
+                ]
+            },
+            education: {
+                start: "May 2017",
+                end: "",
+                degree: "Master Of Business Administration",
+                schoolName: "Cardiff Metropolitan University - UM",
+                description: [
+                ]
+            },
+            skills: [
+                {
+                    logo: imagePrefix + "companyLogos/trello.svg",
+                    name: "Trello",
+                    level: imagePrefix + "thuvaragha/Bar.svg"
+                },
+                {
+                    logo: imagePrefix + "companyLogos/monday.svg",
+                    name: "Monday.com",
+                    level: imagePrefix + "thuvaragha/Bar-1.svg",
+                },
+                {
+                    logo: "",
+                    name: "Jira",
+                    level: imagePrefix + "thuvaragha/Bar-2.svg"
+                },
+                {
+                    logo: "",
+                    name: "Clickup",
+                    level: imagePrefix + "thuvaragha/Bar-2.svg"
+                },
+                {
+                    logo: "",
+                    name: "Grammarly",
+                    level: imagePrefix + "thuvaragha/Bar-2.svg"
+                }
+            ],
+            projectManagement: [
+                {
+                    logo: imagePrefix + "companyLogos/canva.svg",
+                    level: 7
+                },
+                {
+                    logo: imagePrefix + "companyLogos/asana.svg",
+                    level: 6,
+                },
+                {
+                    logo: imagePrefix + "companyLogos/hubspot.svg",
+                    level: 6
+                },
+                {
+                    logo: imagePrefix + "companyLogos/notion.svg",
+                    level: 7
+                },
+                {
+                    logo: imagePrefix + "companyLogos/clickup.svg",
+                    level: 7
+                }
+            ],
+            hardSkills: [
+                "Project Management",
+                "Digital Marketing Strategy",
+                "Content Creation and Editing",
+                "Operational Process Improvement",
+                "Client Relationship Management"
+            ],
+            softSkills: [
+                "Leadership and Team Collaboration",
+                "Communication",
+                "Adaptability",
+                "Problem-Solving",
+                "Time Management"
+            ]
+        },
+        feedback: {
+            recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+            testimonials: [
+                
+            ]
+        },
+        videoPlaylist: {
+            description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+            youtubeLink: imagePrefix + "thuvaragha/video.mp4"
+        }
+    },
 }
 
 export default dataJson;
