@@ -88,22 +88,16 @@ const dataJson = {
             tagline: "Meet our Top - Class EAs",
             team: [
                 {
-                    name:"Mikka Mae U.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile1.svg",
-                    redirect_url: "/profile/mika"
+                    name:"Ankit S.",
+                    title:"Marketing Automation Manager",
+                    image: imagePrefix + "ankit/ankit.svg",
+                    redirect_url: "/profile/ankit"
                 },
                 {
                     name:"Carlota A.",
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "team_profile2.svg",
                     redirect_url: "/profile/carlota"
-                },
-                {
-                    name:"Beauty Lopez",
-                    title:"Sr. Client Success Manager at Remotual",
-                    image: imagePrefix + "beauty.svg",
-                    redirect_url: "/profile/beauty"
                 },
                 {
                     name: "Quincy Dolloso",
@@ -128,18 +122,6 @@ const dataJson = {
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "team_profile5.svg",
                     redirect_url: "/profile/jae"
-                },
-                {
-                    name:"Hoda A.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile3.svg",
-                    redirect_url: "/profile/hoda"
-                },
-                {
-                    name:"Mudassar A.",
-                    title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile6.svg",
-                    redirect_url: "/profile/mudassar"
                 }
             ]
         },
@@ -324,7 +306,7 @@ const dataJson = {
             linkedin: "https://www.linkedin.com/in/carlota-acobera-6a2150200/",
             mail: "carlota.acobera@remotual.com",
             phoneNo: "09606113442",
-            resume: imagePrefix + "Remotual%20Resumes/Carlota%20Remotual%20Resume.pdf",
+            resume: imagePrefix + "officialResumes/Carlota%20Remotual%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -623,7 +605,7 @@ const dataJson = {
             designation: "EXECUTIVE ASSISTANT",
             linkedin: "",
             mail: "jacq.meneses@remotual.com",
-            resume: imagePrefix + "Remotual%20Resumes/Jacq%20Remotual%20Resume.pdf",
+            resume: imagePrefix + "officialResumes/Jacq%20Remotual%20Resume.pdf",
             phoneNo: "09275526175",
             hiremeLink: "https://remotual.com/pricing"
         },
@@ -1265,7 +1247,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
-            resume: imagePrefix + "Remotual%20Resumes/Quincy%20Dolloso%20Resume.pdf",
+            resume: imagePrefix + "officialResumes/Quincy%20Dolloso%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -1386,7 +1368,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
-            resume: imagePrefix + "Remotual%20Resumes/Fran%20Remotual%20Resume.pdf",
+            resume: imagePrefix + "officialResumes/Fran%20Remotual%20Resume%20(1).pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
@@ -1508,7 +1490,7 @@ const dataJson = {
             linkedin: "",
             mail: "",
             phoneNo: "",
-            resume: imagePrefix + "ankit/resume.pdf",
+            resume: imagePrefix + "officialResumes/Ankit%20Remotual%20Resume.pdf",
             hiremeLink: "https://remotual.com/pricing"
         },
         about: {
