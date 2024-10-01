@@ -100,7 +100,7 @@ const dataJson = {
                     redirect_url: "/profile/carlota"
                 },
                 {
-                    name: "Quincy Dolloso",
+                    name: "Quincy D.",
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "quincy.svg",
                     redirect_url: "/profile/quincy"
@@ -112,7 +112,7 @@ const dataJson = {
                     redirect_url: "/profile/jacqueline"
                 },
                 {
-                    name: "Fran Banzuelo",
+                    name: "Fran B.",
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "fran.svg",
                     redirect_url: "/profile/fran"
@@ -122,6 +122,24 @@ const dataJson = {
                     title:"Executive Assistant at Remotual",
                     image: imagePrefix + "team_profile5.svg",
                     redirect_url: "/profile/jae"
+                },
+                {
+                    name:"Beauty L. ",
+                    title:"Sr. Client Success Manager at Remotual",
+                    image: imagePrefix + "beauty.svg",
+                    redirect_url: "/profile/beauty"
+                },
+                {
+                    name:"Hoda A.",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "team_profile3.svg",
+                    redirect_url: "/profile/hoda"
+                },
+                {
+                    name:"Mudassar A.",
+                    title:"Executive Assistant at Remotual",
+                    image: imagePrefix + "team_profile6.svg",
+                    redirect_url: "/profile/mudassar"
                 }
             ]
         },
