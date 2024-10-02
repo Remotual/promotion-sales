@@ -118,10 +118,10 @@ const dataJson = {
                     redirect_url: "/profile/fran"
                 },
                 {
-                    name:"Jae D.",
+                    name:"Thuvaragha Y.",
                     title:"Executive Assistant at Remotual",
-                    image: imagePrefix + "team_profile5.svg",
-                    redirect_url: "/profile/jae"
+                    image: imagePrefix + "thuvaragha.svg",
+                    redirect_url: "/profile/thuvaragha"
                 },
                 {
                     name:"Beauty L. ",
@@ -319,7 +319,7 @@ const dataJson = {
     carlota: {
         profile: {
             image: imagePrefix + "carlota/image.png",
-            name: "Carlota A..",
+            name: "Carlota A.",
             designation: "EXECUTIVE ASSISTANT",
             linkedin: "https://www.linkedin.com/in/carlota-acobera-6a2150200/",
             mail: "carlota.acobera@remotual.com",
@@ -1112,7 +1112,7 @@ const dataJson = {
     beauty: {
         profile: {
             image: imagePrefix + "Beauty/image.svg",
-            name: "Beauty Lopez",
+            name: "Beauty L.",
             designation: "Operations Manager/Sr. Client Success Manager",
             linkedin: "",
             mail: "",
@@ -1260,7 +1260,7 @@ const dataJson = {
     quincy: {
         profile: {
             image: imagePrefix + "Qunicy/quincy.png",
-            name: "Quincy Lawrence Dolloso",
+            name: "Quincy Lawrence D.",
             designation: "Executive Assistant",
             linkedin: "",
             mail: "",
@@ -1381,7 +1381,7 @@ const dataJson = {
     fran: {
         profile: {
             image: imagePrefix + "Fran/image.svg",
-            name: "Fran Banzuelo",
+            name: "Fran B.",
             designation: "Executive Assistant",
             linkedin: "",
             mail: "",
@@ -1503,7 +1503,7 @@ const dataJson = {
     ankit: {
         profile: {
             image: imagePrefix + "ankit/profileImage.svg",
-            name: "Ankit Singh",
+            name: "Ankit S.",
             designation: "MARKETING AUTOMATION MANAGER",
             linkedin: "",
             mail: "",
