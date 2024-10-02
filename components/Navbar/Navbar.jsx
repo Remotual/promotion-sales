@@ -65,7 +65,7 @@ export default function Navbar() {
     <>
       <div className="flex w-11/12 mx-auto justify-between py-4">
         <div className="flex items-center cursor-pointer w-[100px] xl:w-[175px] lg:w-[150px]  md:w-[125px]">
-          <Link href={"/"}>
+          <Link href={"/value-prop"}>
             <Image src={logo} alt=""/>
           </Link>
         </div>
