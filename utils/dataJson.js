@@ -88,10 +88,10 @@ const dataJson = {
       tagline: "Meet our Top - Class EAs",
       team: [
         {
-          name: "Ankit S.",
-          title: "Marketing Automation Manager",
-          image: imagePrefix + "ankit/ankit.svg",
-          redirect_url: "/profile/ankit",
+          name: "Valeria C.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "valeria/valeria.svg",
+          redirect_url: "/profile/valeria",
         },
         {
           name: "Carlota A.",
@@ -140,6 +140,12 @@ const dataJson = {
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "team_profile6.svg",
           redirect_url: "/profile/mudassar",
+        },
+        {
+          name: "Ankit S.",
+          title: "Marketing Automation Manager",
+          image: imagePrefix + "ankit/ankit.svg",
+          redirect_url: "/profile/ankit",
         },
       ],
     },
