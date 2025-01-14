@@ -87,6 +87,7 @@ const dataJson = {
       headline: "Building Your Success Team.",
       tagline: "Meet our Top - Class EAs",
       team: [
+        
         {
           name: "Valeria C.",
           title: "Executive Assistant at Remotual",
@@ -100,16 +101,22 @@ const dataJson = {
           redirect_url: "/profile/carlota",
         },
         {
-          name: "Quincy D.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "quincy.svg",
-          redirect_url: "/profile/quincy",
+          name: "Tatiana M.",
+          title: "Director of Operations at Remotual",
+          image: imagePrefix + "tatiana/tatiana.svg",
+          redirect_url: "/profile/tatiana",
         },
         {
           name: "Jacqueline M.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "team_profile4.svg",
           redirect_url: "/profile/jacqueline",
+        },
+        {
+          name: "Quincy D.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "quincy.svg",
+          redirect_url: "/profile/quincy",
         },
         {
           name: "Fran B.",
@@ -180,6 +187,168 @@ const dataJson = {
       },
     ],
   },
+  tatiana: {
+    profile: {
+      image: imagePrefix + "tatiana/tatiana3.JPG",
+      name: "Tatiana Reboredo Mendez",
+      designation: "Director of Operations",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "tatiana/TatianaResume.pdf",
+      hiremeLink:
+        "https://remotualmy.sharepoint.com/:f:/p/tatiana_reboredo/EuWkjLctfflLo8imov9WS70BoJ995mv7D7vY0sY7pgzk1Q?e=3IauKH",
+    },
+    about: {
+      description:
+        "I am a highly organized and proactive professional with a strong background in administrative work, streamlining operations, and enhancing client relationships. I have a proven ability to implement effective solutions and improve workflows, thriving in fast-paced environments where attention to details and problem-solving are key. My communication skills and efficiency allow me to support executives in achieving their goals while ensuring smooth day-to-day operations.",
+      age: 33,
+      location: "Buenos Aires, Argentina",
+      availability: 40, // or "Monday to Friday 8 am to 5 pm CST" if you need a string
+      experience: 4,
+    },
+    services: [
+      {
+        image:  imagePrefix + "servicesIcons/optimization.svg",
+        title: "Process Improvement",
+        description:
+          "I have the ability to pinpoint inefficiencies and execute solutions that optimize workflows. Whether it’s improving CRM systems or augmenting internal processes, my methodology has consistently resulted in heightened productivity and superior operational outcomes.",
+      },
+      {
+        image: imagePrefix + "servicesIcons/virtual_executive.svg",
+        title: "Administrative Support",
+        description:
+          "My background as an Executive Assistant has provided me with exceptional organizational skills, such as calendar management, travel coordination, and document preparation. I thrive in fast-paced environments; however, I ensure that executives can concentrate on strategic initiatives while I manage day-to-day operations seamlessly. Although the demands can be high, I excel because I am adept at multitasking and prioritizing tasks effectively.",
+      },
+      {
+        image: imagePrefix + "servicesIcons/clientRelation.svg",
+        title: "Client Relationship Management",
+        description:
+          "Building strong relationships with clients has always been a key focus in my roles. I excel at understanding client needs, providing timely solutions, and maintaining clear communication, which has led to higher client satisfaction and retention rates.",
+      },
+      {
+        image: imagePrefix + "servicesIcons/management.svg",
+        title: "Project Coordination & Management",
+        description:
+          "I have experience leading and coordinating projects, such as implementing new software systems to improve internal workflows. My ability to manage timelines, collaborate with various departments, and ensure smooth transitions has resulted in increased efficiency and improved outcomes across teams.",
+      },
+    ],
+    trackRecord: {
+      clients: "12",
+      projects: "20",
+      experience: "4",
+      ratings: "",
+    },
+    resume: {
+      experience: {
+        start: "2024",
+        end: "Present",
+        destination: "Case Consultant",
+        companyName: "Rutter Mills LLP",
+        description: [
+          "Handling reception calls for new and existing clients, vendors, and adjusters, ensuring correct departmental routing.",
+          "Managing claims on the CRM: creating intakes, handling reports, extracting information, audio recovery, and legal document preparation.",
+        ],
+      },
+      education: {
+        start: "2013",
+        end: "2016",
+        degree: "BA (Hons) Theatre Studies",
+        schoolName: "Rose Bruford College",
+        description: [
+          "This course combines practical theatre-making skills with project design and implementation, understanding of cultural, social and creative context, language, writing proposals, fundraising, marketing, and communications.",
+        ],
+      },
+      skills: [
+       {
+          logo: "",
+          name: "Trello",
+          level: imagePrefix + "carlota/Bar-1.svg",
+        },
+        {
+          logo: "",
+          name: "Asana",
+          level: imagePrefix + "Qunicy/Bar-1.svg",
+        },
+        {
+          logo: "",
+          name: "ClickUp",
+          level: imagePrefix + "carlota/Bar-1.svg",
+        },
+        {
+          logo: "",
+          name: "HubSpot",
+          level: imagePrefix + "carlota/Bar-1.svg",
+        },
+        {
+          logo: "",
+          name: "Salesforce",
+          level: imagePrefix + "Qunicy/Bar-1.svg",
+        },
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/trello.svg",
+          level: 7,
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          level: 6,
+        },
+        {
+          logo: imagePrefix + "companyLogos/clickup.svg",
+          level: 7,
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          level: 7,
+        },
+        {
+          logo: imagePrefix + "companyLogos/salesforce.svg",
+          level: 7,
+        },
+      ],
+      hardSkills: [
+        "Bilingual – Spanish and English",
+        "Project Management Tools",
+        "Microsoft Office Suite",
+        "Google Workspace",
+        "CRM Systems (HubSpot, Salesforce, SmartAdvocate)",
+        "Canva",
+        "Zendesk",
+      ],
+      softSkills: [
+        "Effective Communication",
+        "Problem-Solving",
+        "Adaptability",
+        "Time Management",
+        "Empathy",
+        "Creativity",
+        "Attention to Detail",
+      ],
+    },
+    feedback: {
+      recommendation:
+        "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+      testimonials: [
+        {
+          name: "Christine Palmer",
+          projectTitle: "Director of Operations at Rutter Mills LLP",
+          image: "",
+          star: 5,
+          tagline: "Tatiana is an exceptionally talented professional",
+          description:
+            "Throughout her time with us, Tatiana excelled in handling leads and signing up clients, demonstrating strong communication skills and the ability to navigate complex client needs with ease. Her willingness to take on new challenges, her can-do attitude, and her broad skill set—particularly in marketing and tech—made her a true asset to our team.",
+        },
+      ],
+    },
+    videoPlaylist: {
+      description:
+        "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      youtubeLink: imagePrefix + "tatiana/Tatiana%20-%20Intro.mp4",
+    },
+  },
+  
   mika: {
     profile: {
       image: imagePrefix + "mikka/mikkanewImage.svg",
