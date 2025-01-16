@@ -218,7 +218,7 @@ const dataJson = {
         image: imagePrefix + "servicesIcons/virtual_executive.svg",
         title: "Administrative Support",
         description:
-          "My background as an Executive Assistant has provided me with exceptional organizational skills, such as calendar management, travel coordination, and document preparation. I thrive in fast-paced environments; however, I ensure that executives can concentrate on strategic initiatives while I manage day-to-day operations seamlessly. Although the demands can be high, I excel because I am adept at multitasking and prioritizing tasks effectively.",
+          "My background as an Executive Assistant has provided me with exceptional organizational skills, such as calendar management, travel coordination, and document preparation. I thrive in fast-paced environments, seamlessly managing operations to enable executives to focus on strategic priorities.",
       },
       {
         image: imagePrefix + "servicesIcons/clientRelation.svg",
