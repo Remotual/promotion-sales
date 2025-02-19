@@ -88,18 +88,6 @@ const dataJson = {
       tagline: "Meet our Top - Class EAs",
       team: [
         {
-          name: "Joy C.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "joy/joyc.svg",
-          redirect_url: "/profile/joy",
-        },
-        {
-          name: "Faraz A.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "faraz/faraz-icon.png",
-          redirect_url: "/profile/faraz",
-        },
-        {
           name: "Valeria C.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "valeria/valeria.svg",
@@ -165,6 +153,18 @@ const dataJson = {
           image: imagePrefix + "ankit/ankit.svg",
           redirect_url: "/profile/ankit",
         },
+        {
+          name: "Joy C.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "joy/joyc.svg",
+          redirect_url: "/profile/joy",
+        },
+        {
+          name: "Faraz A.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "faraz/faraz-icon.png",
+          redirect_url: "/profile/faraz",
+        }
       ],
     },
     testimonials: [
