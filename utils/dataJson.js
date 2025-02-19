@@ -161,7 +161,7 @@ const dataJson = {
         },
         {
           name: "Faraz A.",
-          title: "Talent Acquisition",
+          title: "Talent Acquisition at Remotual",
           image: imagePrefix + "faraz/faraz-icon.png",
           redirect_url: "/profile/faraz",
         }
@@ -2190,7 +2190,7 @@ const dataJson = {
     profile: {
       image: imagePrefix + "faraz/faraz.png",
       name: "Faraz A.",
-      designation: "Executive Assistant",
+      designation: "Talent Acquisition",
       linkedin: "",
       mail: "",
       phoneNo: "",
