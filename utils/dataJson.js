@@ -87,7 +87,18 @@ const dataJson = {
       headline: "Building Your Success Team.",
       tagline: "Meet our Top - Class EAs",
       team: [
-        
+        {
+          name: "Joy C.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "joy/joyc.svg",
+          redirect_url: "/profile/joy",
+        },
+        {
+          name: "Faraz A.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "faraz/faraz-icon.png",
+          redirect_url: "/profile/faraz",
+        },
         {
           name: "Valeria C.",
           title: "Executive Assistant at Remotual",
@@ -491,7 +502,7 @@ const dataJson = {
           star: 5,
           tagline: "Celebrating exceptional commintment!",
           description:
-            "Since joining us, Mika Mae's dedication, proactiveness, and willingness to learn have truly stood out. Her passion for her role and her consistent efforts to go above and beyond have not gone unnoticed.",
+            "Since joining us, Mika Mae's dedication, proactiveness, and willingness to learn have truly stood out. Her passion for her role and her consistent efforts to go above and beyond have not gone unnoticed.",
         },
       ],
     },
@@ -1423,12 +1434,12 @@ const dataJson = {
         "Skills Gap Analysis",
         "Lean six sigma",
         "Workflow Automation",
-        "Project Management in corporate setting ",
+        "Project Management in corporate setting ",
       ],
       softSkills: [
-        "Strategic Planning and visioning ",
-        "Work – life – Balance ",
-        "Client Interaction ",
+        "Strategic Planning and visioning ",
+        "Work – life – Balance ",
+        "Client Interaction ",
         "Customer Satisfaction",
         "Engagement activities",
       ],
@@ -1444,16 +1455,16 @@ const dataJson = {
           star: 5,
           tagline: "Delegate for Peace of Mind",
           description:
-            "It has been so amazing to be able to delegate things. It's been like peace of mind and clarity like it's just been smooth and no headache. the creative the spending time with the clients that has been a big thing. A big weight has been lifted off our shoulders. ",
+            "It has been so amazing to be able to delegate things. It's been like peace of mind and clarity like it's just been smooth and no headache. the creative the spending time with the clients that has been a big thing. A big weight has been lifted off our shoulders. ",
         },
         {
           name: "Erin W.",
-          projectTitle: "Regenerative Changemaking ",
+          projectTitle: "Regenerative Changemaking ",
           image: imagePrefix + "Beauty/erin.png",
           star: 5,
           tagline: "Seamless Onboarding",
           description:
-            "Your team gave a really smooth process in terms of getting to know us, You know the business and the organization, so I really felt like there was no lag time at all, like kind of fluidly came on board. ",
+            "Your team gave a really smooth process in terms of getting to know us, You know the business and the organization, so I really felt like there was no lag time at all, like kind of fluidly came on board. ",
         },
         {
           name: "Daniel F.",
@@ -1462,7 +1473,7 @@ const dataJson = {
           star: 5,
           tagline: "Quick Delivery and Proactive Support",
           description:
-            "I like that you can take our project outline directive on what we need, the way we want it done, and execute it quickly. You're always trying to see if there's something else you can do to help me move faster.",
+            "I like that you can take our project outline directive on what we need, the way we want it done, and execute it quickly. You're always trying to see if there's something else you can do to help me move faster.",
         },
         {
           name: "Dr. James",
@@ -1471,7 +1482,7 @@ const dataJson = {
           star: 5,
           tagline: "Team Support and Weekly Updates",
           description:
-            "I'm really enjoying working with the team-everyone is proving to be so helpful, each in their own way! Plus, I enjoy the weekly updates- invaluable. Very glad for how things are going. Remotual Has Made It So Easy for Me to Scale Up and I Just Keep Creating More Projects Envisioning More Projects and Grow The Business.  everything appears to be in good order. Well done! I was so nervous about the transition, but you made it so easy on me! ",
+            "I'm really enjoying working with the team-everyone is proving to be so helpful, each in their own way! Plus, I enjoy the weekly updates- invaluable. Very glad for how things are going. Remotual Has Made It So Easy for Me to Scale Up and I Just Keep Creating More Projects Envisioning More Projects and Grow The Business.  everything appears to be in good order. Well done! I was so nervous about the transition, but you made it so easy on me! ",
         },
       ],
     },
@@ -1494,7 +1505,7 @@ const dataJson = {
     },
     about: {
       description:
-        "As an Executive Assistant, I am dedicated to providing exceptional support and contributing to the success of the executive team and the organization as a whole. My ability to multitask, stay organized under pressure, and communicate effectively enables me to exceed expectations and drive positive outcomes. I am passionate about continuous learning and professional development, always seeking opportunities to enhance my skills and adapt to evolving business needs. Let’s connect and discuss how I can support your team and contribute to your organization’s success! ",
+        "As an Executive Assistant, I am dedicated to providing exceptional support and contributing to the success of the executive team and the organization as a whole. My ability to multitask, stay organized under pressure, and communicate effectively enables me to exceed expectations and drive positive outcomes. I am passionate about continuous learning and professional development, always seeking opportunities to enhance my skills and adapt to evolving business needs. Let’s connect and discuss how I can support your team and contribute to your organization’s success! ",
       age: 28,
       location: "Philippines",
       availability: 40,
@@ -1511,7 +1522,7 @@ const dataJson = {
         image: imagePrefix + "servicesIcons/planning.svg",
         title: "Planning and Strategic Support",
         description:
-          "Planning and Strategic Support: Assist in strategic planning initiatives, contributing insights and support to optimize workflows and enhance organizational effectiveness. ",
+          "Planning and Strategic Support: Assist in strategic planning initiatives, contributing insights and support to optimize workflows and enhance organizational effectiveness. ",
       },
       {
         image: imagePrefix + "servicesIcons/vendor.svg",
@@ -1536,14 +1547,14 @@ const dataJson = {
           "My responsibilities include providing tailored support to executives by analyzing complex issues and implementing solutions to enhance their workflows and decision-making.",
           "I manage data and information systems, ensuring accuracy and confidentiality while leveraging software proficiency to streamline administrative tasks.",
           "I creatively solve executive challenges, facilitate collaboration, and communicate effectively to align priorities.",
-          "My role is focused on optimizing organizational efficiency, continuously learning, and delivering proactive support to drive executive success and strategic goals ",
+          "My role is focused on optimizing organizational efficiency, continuously learning, and delivering proactive support to drive executive success and strategic goals ",
         ],
       },
       education: {
         start: "2017",
         end: "",
-        degree: "Bachelor of Science in Medical technology ",
-        schoolName: "Far Eastern University MS Office",
+        degree: "Bachelor of Science in Medical technology ",
+        schoolName: "Far Eastern University MS Office",
         description: [],
       },
       skills: [
@@ -1586,7 +1597,7 @@ const dataJson = {
         "Six Sigma",
       ],
       softSkills: [
-        "Analytical Thinking ",
+        "Analytical Thinking ",
         "Adaptability",
         "Creative Problem-Solving",
         "Attention to Detail",
@@ -1671,7 +1682,7 @@ const dataJson = {
       education: {
         start: "2014",
         end: "",
-        degree: "Bachelor of Science in Hotel and Restaurant Management ",
+        degree: "Bachelor of Science in Hotel and Restaurant Management ",
         schoolName: "Our Lady of Fatima University",
         description: [],
       },
@@ -1714,9 +1725,9 @@ const dataJson = {
       ],
       softSkills: [
         "Excellent communication skills, both written and verbal",
-        "Interpersonal skills for building relationships with executives and team members ",
-        "Organizational abilities ",
-        "Discretion and confidentiality in handling sensitive information ",
+        "Interpersonal skills for building relationships with executives and team members ",
+        "Organizational abilities ",
+        "Discretion and confidentiality in handling sensitive information ",
       ],
     },
     feedback: {
@@ -2175,6 +2186,291 @@ const dataJson = {
       youtubeLink: imagePrefix + "valeria/Valeria%20Intro.mp4",
     },
   },
+  faraz: {
+    profile: {
+      image: imagePrefix + "faraz/faraz.png",
+      name: "Faraz A.",
+      designation: "Executive Assistant",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "faraz/faraz-resume.pdf",
+      hiremeLink: "https://remotual.com/pricing"
+    },
+    about: {
+      description: "I am a seasoned Talent Acquisition professional with over 10 years of experience spanning both on-site recruitment for UAE government companies and remote global hiring. In my most recent role as Talent Acquisition Manager at Invisible Technologies, I leveraged platforms like Greenhouse ATS and Zoom to build diverse, international teams while gaining deep appreciation for cross-cultural recruitment. My career journey demonstrates adaptability from traditional corporate environments to modern remote work settings, with expertise in identifying and attracting top talent across different cultures and geographies.",
+      age: 37,
+      location: "UAE",
+      availability: 40,
+      experience: 10
+    },
+    services: [
+      {
+        image: imagePrefix + "faraz/CRM.png",
+        title: "CRM Management",
+        description: "Proficient in maintaining and updating CRM, ensuring accurate client data, meeting notes, and seamless record-keeping to support relationship management."
+      },
+      {
+        image: imagePrefix + "ankit/emailAutomations.svg",
+        title: "Email Management",
+        description: "Adept at organizing, responding to, and following up on email communications, ensuring clear, timely, and professional correspondence."
+      },
+      {
+        image: imagePrefix + "faraz/documentation.png",
+        title: "Document Creation",
+        description: "Experienced in designing professional documents tailored for client needs and team use, enhancing communication and operational effectiveness."
+      },
+      {
+        image: imagePrefix + "servicesIcons/calendar.svg",
+        title: "Scheduling & Coordination",
+        description: "Skilled in managing client appointments, creating monthly, quarterly, and annual schedules, and streamlining team calendars for optimal efficiency."
+      }
+    ],
+    trackRecord: {
+      clients: "15",
+      projects: "3",
+      experience: "10",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "Oct 2024",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Handling inbound and outbound calls to address customer inquiries and provide information about our services.",
+          "Managing clients’ inboxes and calendars, ensuring timely responses and efficient scheduling."
+        ]
+      },
+      education: {
+        start: "2020",
+        end: "",
+        degree: "Business Administration",
+        schoolName: "Colegio de San Juan de Letran",
+        description: []
+      },
+      skills: [
+        {
+          logo: "",
+          name: "Monday.com",
+          level: imagePrefix + "valeria/Bar.svg",
+        },
+        {
+          logo: "",
+          name: "Zendesk",
+          level: imagePrefix + "valeria/Bar-1.svg",
+        },
+        {
+          logo: "",
+          name: "Slack",
+          level: imagePrefix + "valeria/Bar-2.svg",
+        },
+        {
+          logo: "",
+          name: "Zoho",
+          level: imagePrefix + "valeria/Bar-3.svg",
+        },
+        {
+          logo: "",
+          name: "GSuite",
+          level: imagePrefix + "valeria/Bar-4.svg",
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/canva.svg",
+          level: 7
+        }
+      ],
+      hardSkills: [
+        "Calendar Management",
+        "Document Creation & Management",
+        "Email Management",
+        "Data Entry & Accuracy",
+        "Project Management",
+        "Communication Tools",
+        "Leadership"
+      ],
+      softSkills: [
+        "Time Management",
+        "Active Listening",
+        "Collaboration",
+        "Growth Mindset",
+        "Adaptability",
+        "Relationship-Building",
+        "Work Ethic"
+      ]
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations.",
+      testimonials: []
+    },
+    videoPlaylist: {
+      description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      // youtubeLink: imagePrefix + ""
+      thumbnail: imagePrefix + "faraz/video-thumbnail.png"
+    }
+  },
+  joy: {
+    profile: {
+      image: imagePrefix + "joy/joyc.png",
+      name: "Joy C.",
+      designation: "Executive Assistant",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "joy/joy-resume.pdf",
+      hiremeLink: "https://remotual.com/pricing",
+    },
+    about: {
+      description:
+        "A Top Rated Executive Assistant with a 100% Job Success Score on Upwork with over 6 years of experience working with high-level executives, business owners, and companies across the globe!",
+      age: 24,
+      location: "Philippines",
+      availability: 40,
+      experience: 6,
+    },
+    services: [
+      {
+        image: imagePrefix + "joy/Exec.png",
+        title: "Executive & Operations Management",
+        description:
+          "Leveraging 6+ years of experience to handle high-level administrative tasks, streamline operations, and manage business processes for CEOs and entrepreneurs across multiple industries.",
+      },
+      {
+        image: imagePrefix + "joy/bookkeeping.png",
+        title: "Financial Oversight & Bookkeeping",
+        description:
+          "Applying expertise as a former Finance Manager and Executive Personal Assistant that oversee bookkeeping, expense tracking, invoicing, and financial reporting, ensuring accurate records and budget management.",
+      },
+      {
+        image: imagePrefix + "joy/communication.png",
+        title: "Strategic Communication & Client Coordination",
+        description:
+          "Managing high-level communications, from email and calendar management to coordinating with teams, clients, and stakeholders, ensuring seamless business operations.",
+      },
+      {
+        image: imagePrefix + "joy/automation.png",
+        title: "Tech-Savviness & Automation",
+        description:
+          "Utilizing tools like Google Workspace, Microsoft 365, CRMs, and automation platforms to improve workflow efficiency, project management, and business scalability.",
+      },
+    ],
+    trackRecord: {
+      clients: "15",
+      projects: "300",
+      experience: "6",
+      ratings: "5",
+    },
+    resume: {
+      experience: {
+        start: "April 2024",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "My responsibilities include providing tailored support to executives by analyzing complex issues and implementing solutions to enhance their workflows and decision-making.",
+          "I manage data and information systems, ensuring accuracy and confidentiality while leveraging software proficiency to streamline administrative tasks.",
+          "I creatively solve executive challenges, facilitate collaboration, and communicate effectively to align priorities.",
+          "My role is focused on optimizing organizational efficiency, continuously learning, and delivering proactive support to drive executive success and strategic goals.",
+        ],
+      },
+      education: {
+        start: "2019",
+        end: "2023",
+        degree: "Bachelor of Science - Major in Psychology",
+        schoolName: "Caraga State University",
+        description: [],
+      },
+      skills: [
+        {
+          logo: "",
+          name: "Monday.com",
+          level: imagePrefix + "valeria/Bar.svg",
+        },
+        {
+          logo: "",
+          name: "Google Suite",
+          level: imagePrefix + "valeria/Bar-1.svg",
+        },
+        {
+          logo: "",
+          name: "Salesforce",
+          level: imagePrefix + "valeria/Bar-2.svg",
+        },
+        {
+          logo: "",
+          name: "Microsoft 365",
+          level: imagePrefix + "valeria/Bar-3.svg",
+        },
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva.svg",
+          level: 7,
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          level: 6,
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          level: 6,
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          level: 7,
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          level: 7,
+        },
+      ],
+      hardSkills: [
+        "Operations Management",
+        "Financial Oversight",
+        "Strategic Communication",
+        "Automation",
+        "Bookkeeping",
+        "Google Workspace",
+      ],
+      softSkills: [
+        "Analytical Thinking",
+        "Adaptability",
+        "Creative Problem-Solving",
+        "Attention to Detail",
+        "Continuous Improvement / Growth Mindset",
+      ],
+    },
+    feedback: {
+      recommendation:
+        "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+      testimonials: [],
+    },
+    videoPlaylist: {
+      description:
+        "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      // youtubeLink: imagePrefix + ""
+      thumbnail: imagePrefix + "joy/joyc-video.png"
+    },
+  }
 };
 
 export default dataJson;
