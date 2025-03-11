@@ -117,17 +117,41 @@ const dataJson = {
           image: imagePrefix + "quincy.svg",
           redirect_url: "/profile/quincy",
         },
+        // {
+        //   name: "Andy",
+        //   title: "Executive Assistant at Remotual",
+        //   image: imagePrefix + "quincy.svg",
+        //   redirect_url: "/profile/quincy",
+        // },
         {
-          name: "Fran B.",
+          name: "Danika F.",
           title: "Executive Assistant at Remotual",
-          image: imagePrefix + "fran.svg",
-          redirect_url: "/profile/fran",
+          image: imagePrefix + "danika/danika.svg",
+          redirect_url: "/profile/danika",
+        },
+        {
+          name: "Vandolf G.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "vandolf/van.svg",
+          redirect_url: "/profile/van",
         },
         {
           name: "Thuvaragha Y.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "thuvaragha.svg",
           redirect_url: "/profile/thuvaragha",
+        },
+        {
+          name: "Joy C.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "joy/joyc.svg",
+          redirect_url: "/profile/joy",
+        },
+        {
+          name: "Fran B.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "fran.svg",
+          redirect_url: "/profile/fran",
         },
         {
           name: "Beauty L. ",
@@ -152,12 +176,6 @@ const dataJson = {
           title: "Marketing Automation Manager",
           image: imagePrefix + "ankit/ankit.svg",
           redirect_url: "/profile/ankit",
-        },
-        {
-          name: "Joy C.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "joy/joyc.svg",
-          redirect_url: "/profile/joy",
         },
         {
           name: "Faraz A.",
@@ -198,6 +216,296 @@ const dataJson = {
       },
     ],
   },
+
+  danika: {
+    profile: {
+      image: imagePrefix + "danika/danika-icon.png",
+      name: "Danika Flora Rumbaoa",
+      designation: "EXECUTIVE ASSISTANT",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "danika/danika-resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: "Customer service expert skilled in virtual and telephone interactions, encompassing sales, technical support, and customer care. Proven track record as an EA Virtual Assistant to clients. Enthusiastic and adaptable professional experienced in working effectively both in team-based environments and independently.",
+      age: "34",
+      location: "Philippines",
+      availability: "40",
+      experience: 1
+    },
+    services: [
+      {
+        image: imagePrefix + "danika/customer-service-excellence.png",
+        title: "Customer Support",
+        description: "Handling inbound and outbound calls to address customer inquiries and provide information about our services."
+      },
+      {
+        image: imagePrefix + "danika/strong-organization.png",
+        title: "Calendar & Inbox Management",
+        description: "Managing clients’ inboxes and calendars, ensuring timely responses and efficient scheduling."
+      },
+      {
+        image: imagePrefix + "danika/real-estate.png",
+        title: "Property Management",
+        description: "Managing rental properties, addressing tenant concerns, overseeing maintenance, and ensuring compliance with local regulations while maintaining tenant satisfaction and financial performance."
+      },
+      {
+        image: imagePrefix + "danika/virtual-assistance.png",
+        title: "Administrative Support",
+        description: "Handling calendar management, prioritizing tasks, coordinating travel, and providing administrative support, including drafting emails, memos, and communications."
+      }
+    ],
+    trackRecord: {
+      clients: "9",
+      projects: "5",
+      experience: "1",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "October 2024",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Handling inbound and outbound calls to address customer inquiries and provide information about our services.",
+          "Vanaging clients' inboxes and calendars, ensuring timely responses and efficient scheduling."
+        ]
+      },
+      education: {
+        start: "",
+        end: "",
+        degree: "",
+        schoolName: "",
+        description: []
+      },
+      skills: [
+        {
+
+          name: "Basecamp",
+          level: imagePrefix + "Qunicy/Bar-2.svg"
+        },
+        {
+          name: "SurveyMonkey",
+          level: imagePrefix + "Qunicy/Bar-1.svg"
+        },
+        {
+          name: "AgoraPulse",
+          level: imagePrefix + "Qunicy/Bar-1.svg"
+        },
+        {
+          name: "Time Doctor",
+          level: imagePrefix + "Qunicy/Bar-1.svg"
+        },
+        {
+          name: "Hubstaff",
+          level: imagePrefix + "Qunicy/Bar-2.svg"
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva.svg",
+          name: "Canva",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "HubSpot",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          name: "ChatGPT",
+          level: 7
+        }
+      ],
+      hardSkills: [
+        "Communication",
+        "Project Management",
+        "Social Media Marketing",
+        "Research",
+        "Problem Solving",
+        "Accounting",
+        "Leadership"
+      ],
+      softSkills: [
+        "Time Management",
+        "Active Listening",
+        "Collaboration",
+        "Growth Mindset",
+        "Foresight",
+        "Relationship-Building",
+        "Work Ethic"
+      ]      
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase træ reliability, value. and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+      testimonials: []
+    },
+    videoPlaylist: {
+      description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      youtubeLink: imagePrefix + "danika/danika-video.mp4"
+    }
+  },
+  
+  van: {
+    profile: {
+      image: imagePrefix + "vandolf/van-icon.png",
+      name: "Vandolf G.",
+      designation: "EXECUTIVE ASSISTANT",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "vandolf/van-resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: "I’m Van, an experienced Executive Assistant with five years of expertise across industries including law, real estate, medical, marketing, logistics, travel, cryptocurrency, and startups. With a background in marketing management, I bring a unique mix of administrative expertise and strategic marketing insight. Known for my adaptability and efficiency, I excel in supporting executives in complex, fast-paced environments, making me a valuable asset to any team.",
+      age: 25,
+      location: "Philippines",
+      availability: "40 hours/week",
+      experience: "5 Years+"
+    },
+    services: [
+      {
+        image: imagePrefix + "vandolf/crm-management.png",
+        title: "CRM Management",
+        description: "Proficient in maintaining and updating CRM, ensuring accurate client data, meeting notes, and seamless record-keeping to support relationship management."
+      },
+      {
+        image: imagePrefix + "vandolf/email-management.png",
+        title: "Email Management",
+        description: "Adept at organizing, responding to, and following up on email communications, ensuring clear, timely, and professional correspondence."
+      },
+      {
+        image: imagePrefix + "vandolf/document-creation.png",
+        title: "Document Creation",
+        description: "Experienced in designing professional documents tailored for client needs and team use, enhancing communication and operational effectiveness."
+      },
+      {
+        image: imagePrefix + "vandolf/scheduling-coordination.png",
+        title: "Scheduling & Coordination",
+        description: "Skilled in managing client appointments, creating monthly, quarterly, and annual schedules, and streamlining team calendars for optimal efficiency."
+      }
+    ],
+    trackRecord: {
+      clients: "12",
+      projects: "3",
+      experience: "5",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "October 2024",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Handling inbound and outbound calls to address customer inquiries and provide information about our services.",
+          "Managing clients’ inboxes and calendars, ensuring timely responses and efficient scheduling."
+        ]
+      },
+      education: {
+        start: "2020",
+        end: "",
+        degree: "Business Administration",
+        schoolName: "Colegio de San Juan de Letran",
+        description: [
+        
+        ]
+      },
+      skills: [
+        {
+          name: "Monday.com",
+          level: imagePrefix + "carlota/Bar-2.svg"
+        },
+        {
+          name: "Zendesk",
+          level: imagePrefix + "carlota/Bar-5.svg"
+        },
+        {
+          name: "Slack",
+          level: imagePrefix + "carlota/Bar-5.svg"
+        },
+        {
+          name: "Zoho",
+          level: imagePrefix + "carlota/Bar-5.svg"
+        },
+        {
+          name: "GSuite",
+          level: imagePrefix + "carlota/Bar-2.svg"
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "HubSpot",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          name: "ChatGPT",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/canva.svg",
+          name: "Canva",
+          level: 7
+        }
+      ],
+      hardSkills: [
+        "Calendar Management",
+        "Document Creation & Management",
+        "Email Management",
+        "Data Entry & Accuracy",
+        "Project Management",
+        "Communication Tools",
+        "Leadership"
+      ],
+      softSkills: [
+        "Time Management",
+        "Active Listening",
+        "Collaboration",
+        "Growth Mindset",
+        "Adaptability",
+        "Relationship-Building",
+        "Work Ethic"
+      ]
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations.",
+      testimonials: [ ]
+    },
+    videoPlaylist: {
+      description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I share my experiences and the heart behind my work. Expect professionalism, passion, and a lot of real talk. Hit play and let’s connect!",
+      youtubeLink: imagePrefix + "vandolf/van-video.mp4"
+    }
+  },
+
+
+  
   tatiana: {
     profile: {
       image: imagePrefix + "tatiana/tatiana3.JPG",
