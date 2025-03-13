@@ -117,12 +117,12 @@ const dataJson = {
           image: imagePrefix + "quincy.svg",
           redirect_url: "/profile/quincy",
         },
-        // {
-        //   name: "Andy",
-        //   title: "Executive Assistant at Remotual",
-        //   image: imagePrefix + "quincy.svg",
-        //   redirect_url: "/profile/quincy",
-        // },
+        {
+          name: "Andrea C.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "andrea/andrea.svg",
+          redirect_url: "/profile/andrea",
+        },
         {
           name: "Danika F.",
           title: "Executive Assistant at Remotual",
@@ -216,6 +216,148 @@ const dataJson = {
       },
     ],
   },
+
+
+  andrea: {
+    profile: {
+      image: imagePrefix + "andrea/andrea-icon.png",
+      name: "Andrea C.",
+      designation: "Executive Assistant",
+      linkedin: "",
+      mail: "andrea.delcastillo@gmail.com",
+      phoneNo: "(879) 300-2588",
+      resume: imagePrefix + "andrea/andrea-resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description:
+        "I am a graduate of Universidad Latinoamericana (Florida campus) with a degree in Marketing, passionate about bridging connections between brands, entrepreneurs, and communities. I have experience in marketing, brand management, and EA tasks. My passion for personal branding paved the way for the 360° campaign I created for Margarita’s hair brand. I’m eager to grow within a dynamic team and continue delivering high-impact results.",
+      age: 26,
+      location: "Mexico City",
+      availability: "40",
+      experience: 4
+    },
+    services: [
+      {
+        image: imagePrefix + "servicesIcons/SocialMedia.svg",
+        title: "Social Media Management",
+        description:
+          "Strategically plan, create, and schedule content to enhance brand visibility and audience engagement across various platforms."
+      },
+      {
+        image: imagePrefix + "servicesIcons/service_chart.svg",
+        title: "Lead Generation",
+        description:
+          "Implement strategies to identify and attract potential clients, nurturing relationships to drive conversions and growth."
+      },
+      {
+        image: imagePrefix + "servicesIcons/management.svg",
+        title: "Project Management",
+        description:
+          "Coordinate tasks, teams, and timelines to ensure successful project execution and stakeholder satisfaction."
+      },
+      {
+        image: imagePrefix + "servicesIcons/virtual_executive.svg",
+        title: "Administrative Support",
+        description:
+          "Manage daily operations, including email handling, scheduling, and data entry, ensuring executives can focus on strategic priorities."
+      }
+    ],
+    trackRecord: {
+      clients: "8",
+      projects: "5",
+      experience: "4",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "Jan 2021",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Calerdar management, email management, up to date with deadlines keeping control and track ofexperses asuring all clients emails are resporded in a timely manner."
+        ]
+      },
+      education: {
+        start: "",
+        end: "",
+        degree: "Bachelor's Degree in Design for Communication in Digital Media",
+        schoolName: "Universidad Latinoamericana, Campus Florida",
+        description: []
+      },
+      skills: [
+        {
+        // logo: imagePrefix + "companyLogos/canva.svg",
+          name: "Canva",
+          level: imagePrefix + "carlota/Bar.svg"
+        },
+        {
+          name: "Adobe Suite",
+          level: imagePrefix + "carlota/Bar-5.svg"
+        },
+        {
+          name: "Digital Illustration",
+          level: imagePrefix + "carlota/Bar-1.svg"
+        },
+        {
+          name: "Motion Graphics",
+          level: imagePrefix + "carlota/Bar-5.svg"
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/monday.svg",
+          name: "Monday.com",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/slack.svg",
+          name: "Slack",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/office365.svg",
+          name: "Microsoft 365",
+          level: 6  
+        }
+      ],
+      hardSkills: [
+        "Digital Marketing",
+        "Content Creation",
+        "Strategic Planning",
+        "Customer Relationship",
+        "Management (CRM)",
+        "Copywriting",
+        "Event Coordination",
+      ],
+      softSkills: [
+        "Creativity",
+        "Emotional Intelligence",
+        "Adaptability",
+        "Team Leadership",
+        "Critical Thinking",
+        "Networking",
+        "Conflict Resolution",
+      ]
+    },
+    feedback: {
+      recommendation:
+        "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+      testimonials: []
+    },
+    videoPlaylist: {
+      description:
+        "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I share my experiences and the heart behind my work. Expect professionalism, passion, and a lot of real talk. Hit play, and let’s connect!",
+      youtubeLink: imagePrefix + "andrea/andrea-video.mp4"
+    }
+  },
+  
 
   danika: {
     profile: {
