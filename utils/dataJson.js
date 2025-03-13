@@ -220,7 +220,7 @@ const dataJson = {
 
   andrea: {
     profile: {
-      image: imagePrefix + "andrea/andrea-icon.png",
+      image: imagePrefix + "andrea/andrea-profile.png",
       name: "Andrea C.",
       designation: "Executive Assistant",
       linkedin: "",
