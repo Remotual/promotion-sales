@@ -112,17 +112,23 @@ const dataJson = {
           redirect_url: "/profile/jacqueline",
         },
         {
+          name: "Elisha O.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "elisha/3%203.png",
+          redirect_url: "/profile/elisha",
+        },
+        {
           name: "Quincy D.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "quincy.svg",
           redirect_url: "/profile/quincy",
         },
-        {
-          name: "Andrea C.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "andrea/andrea.svg",
-          redirect_url: "/profile/andrea",
-        },
+        // {
+        //   name: "Andy",
+        //   title: "Executive Assistant at Remotual",
+        //   image: imagePrefix + "quincy.svg",
+        //   redirect_url: "/profile/quincy",
+        // },
         {
           name: "Danika F.",
           title: "Executive Assistant at Remotual",
@@ -216,148 +222,6 @@ const dataJson = {
       },
     ],
   },
-
-
-  andrea: {
-    profile: {
-      image: imagePrefix + "andrea/andrea-profile.png",
-      name: "Andrea C.",
-      designation: "Executive Assistant",
-      linkedin: "",
-      mail: "andrea.delcastillo@gmail.com",
-      phoneNo: "(879) 300-2588",
-      resume: imagePrefix + "andrea/andrea-resume.pdf",
-      hiremeLink: ""
-    },
-    about: {
-      description:
-        "I am a graduate of Universidad Latinoamericana (Florida campus) with a degree in Marketing, passionate about bridging connections between brands, entrepreneurs, and communities. I have experience in marketing, brand management, and EA tasks. My passion for personal branding paved the way for the 360° campaign I created for Margarita’s hair brand. I’m eager to grow within a dynamic team and continue delivering high-impact results.",
-      age: 26,
-      location: "Mexico City",
-      availability: "40",
-      experience: 4
-    },
-    services: [
-      {
-        image: imagePrefix + "servicesIcons/SocialMedia.svg",
-        title: "Social Media Management",
-        description:
-          "Strategically plan, create, and schedule content to enhance brand visibility and audience engagement across various platforms."
-      },
-      {
-        image: imagePrefix + "servicesIcons/service_chart.svg",
-        title: "Lead Generation",
-        description:
-          "Implement strategies to identify and attract potential clients, nurturing relationships to drive conversions and growth."
-      },
-      {
-        image: imagePrefix + "servicesIcons/management.svg",
-        title: "Project Management",
-        description:
-          "Coordinate tasks, teams, and timelines to ensure successful project execution and stakeholder satisfaction."
-      },
-      {
-        image: imagePrefix + "servicesIcons/virtual_executive.svg",
-        title: "Administrative Support",
-        description:
-          "Manage daily operations, including email handling, scheduling, and data entry, ensuring executives can focus on strategic priorities."
-      }
-    ],
-    trackRecord: {
-      clients: "8",
-      projects: "5",
-      experience: "4",
-      ratings: "5"
-    },
-    resume: {
-      experience: {
-        start: "Jan 2021",
-        end: "Present",
-        destination: "Executive Assistant",
-        companyName: "Remotual",
-        description: [
-          "Calerdar management, email management, up to date with deadlines keeping control and track ofexperses asuring all clients emails are resporded in a timely manner."
-        ]
-      },
-      education: {
-        start: "",
-        end: "",
-        degree: "Bachelor's Degree in Design for Communication in Digital Media",
-        schoolName: "Universidad Latinoamericana, Campus Florida",
-        description: []
-      },
-      skills: [
-        {
-        // logo: imagePrefix + "companyLogos/canva.svg",
-          name: "Canva",
-          level: imagePrefix + "carlota/Bar.svg"
-        },
-        {
-          name: "Adobe Suite",
-          level: imagePrefix + "carlota/Bar-5.svg"
-        },
-        {
-          name: "Digital Illustration",
-          level: imagePrefix + "carlota/Bar-1.svg"
-        },
-        {
-          name: "Motion Graphics",
-          level: imagePrefix + "carlota/Bar-5.svg"
-        }
-      ],
-      projectManagement: [
-        {
-          logo: imagePrefix + "companyLogos/asana.svg",
-          name: "Asana",
-          level: 7
-        },
-        {
-          logo: imagePrefix + "companyLogos/monday.svg",
-          name: "Monday.com",
-          level: 6
-        },
-        {
-          logo: imagePrefix + "companyLogos/slack.svg",
-          name: "Slack",
-          level: 7
-        },
-        {
-          logo: imagePrefix + "companyLogos/office365.svg",
-          name: "Microsoft 365",
-          level: 6  
-        }
-      ],
-      hardSkills: [
-        "Digital Marketing",
-        "Content Creation",
-        "Strategic Planning",
-        "Customer Relationship",
-        "Management (CRM)",
-        "Copywriting",
-        "Event Coordination",
-      ],
-      softSkills: [
-        "Creativity",
-        "Emotional Intelligence",
-        "Adaptability",
-        "Team Leadership",
-        "Critical Thinking",
-        "Networking",
-        "Conflict Resolution",
-      ]
-    },
-    feedback: {
-      recommendation:
-        "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
-      testimonials: []
-    },
-    videoPlaylist: {
-      description:
-        "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I share my experiences and the heart behind my work. Expect professionalism, passion, and a lot of real talk. Hit play, and let’s connect!",
-      youtubeLink: imagePrefix + "andrea/andrea-video.mp4"
-    }
-  },
-  
 
   danika: {
     profile: {
@@ -2920,7 +2784,152 @@ const dataJson = {
       // youtubeLink: imagePrefix + ""
       thumbnail: imagePrefix + "joy/joyc-video.png"
     },
+  },
+  elisha : {
+    profile: {
+      image: imagePrefix + "elisha/elisha-image.png",
+      name: "Elisha O.",
+      designation: "Executive Assistant",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "someNewGuy/[RESUME_FILE_HERE].pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: "As an Executive Assistant, I have offered sales- oriented VA solutions for half a decade. I work closely with the CEO and VP of Sales to audit their sales needs and the efficiency of the link between their sales and marketing. I then think outside the box to solve problems using conventional sales development approaches and unconventional demand generation methods.",
+      age: 35,
+      location: "Kenya",
+      availability: 40,
+      experience: 8
+    },
+    services: [
+      {
+        image: imagePrefix + "elisha/sales.svg",
+        title: "Sales Workflows",
+        description: "Skilled in designing and optimizing sales workflows that improve lead conversion, reduce friction and enhance team efficiency."
+      },
+      {
+        image: imagePrefix + "elisha/outreach.svg",
+        title: "Outreach",
+        description: "Expertise in multi-channel outreach strategies, leveraging automation and personalization to engage prospects effectively."
+      },
+      {
+        image: imagePrefix + "elisha/negotiation.svg",
+        title: "Negotiation",
+        description: "Strong ability to navigate deal-making processes, address objections and secure favorable agreements for long-term business."
+      },
+      {
+        image: imagePrefix + "elisha/pipeline.svg",
+        title: "Pipeline Management",
+        description: "Proficient in structuring and maintaining sales pipelines, ensuring consistent deal flow and accurate forecasting."
+      },
+    ],
+    trackRecord: {
+      clients: "50",
+      projects: "400",
+      experience: "8",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "MAR 24",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Responsible for conducting competitor analysis to identify market trends and opportunities.",
+          "Managed both inbound and outbound outreach strategies to generate leads and engage potential clients.",
+          "Oversaw pipeline management to ensure seamless sales operations and revenue growth."
+        ]
+      },
+      education: {
+        start: "2009",
+        end: "",
+        degree: "BSc. Agricultural and Natural Resource Economics",
+        schoolName: "MOI University",
+        description: []
+      },
+      skills: [
+        {
+          name: "Go High Level",
+          level: imagePrefix + "elisha/bar1.svg"
+        },
+        {
+          name: "Apollo",
+          level: imagePrefix + "elisha/bar2.svg"
+        },
+        {
+          name: "Sales Navigator",
+          level: imagePrefix + "elisha/bar3.svg"
+        },
+        {
+          name: "Pipedrive",
+          level: imagePrefix + "elisha/bar4.svg"
+        },
+        {
+          name: "Full Enrich",
+          level: imagePrefix + "elisha/bar5.svg"
+        },
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva2.svg",
+          name: "Canva",
+          level: 7 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 6 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "Hubspot",
+          level: 6 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          name: "ChatGPT",
+          level: 7 // or whatever numeric level is in your data
+        },
+      ],
+      hardSkills: [
+       " CRM Proficiency",
+"Lead Prospecting & Data Mining",
+"Cold Emailing & Outreach",
+"Sales Automation",
+"Data Analysis & A/B Testing",
+"Market Research",
+"Follow-up Strategies"
+      ],
+      softSkills: [
+        "Time management",
+        "Communication",
+        "Adaptability",
+        "Growth Mindset",
+        "Foresight",
+        "Relationship-Building",
+        "Work Ethic"
+      ]
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+      testimonials: [
+      ]
+    },
+    videoPlaylist: {
+      description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      youtubeLink: imagePrefix + "elisha/elisha.mp4"
+      // thumbnail: imagePrefix + "elisha/elisha-video-image.png"
+    }
   }
+  
 };
 
 export default dataJson;
