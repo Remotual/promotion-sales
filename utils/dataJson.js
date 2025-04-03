@@ -136,6 +136,12 @@ const dataJson = {
           redirect_url: "/profile/danika",
         },
         {
+          name: "Nkosiphile A.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "nkosiphile/Nkosiphile Headshot.png",
+          redirect_url: "/profile/nkosiphile",
+        },
+        {
           name: "Vandolf G.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "vandolf/van.svg",
@@ -188,12 +194,6 @@ const dataJson = {
           title: "Talent Acquisition at Remotual",
           image: imagePrefix + "faraz/faraz-icon.png",
           redirect_url: "/profile/faraz",
-        },
-        {
-          name: "Nkosiphile A.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "nkosiphile/Nkosiphile Headshot.png",
-          redirect_url: "/profile/nkosiphile",
         }
       ],
     },
