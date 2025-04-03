@@ -188,6 +188,12 @@ const dataJson = {
           title: "Talent Acquisition at Remotual",
           image: imagePrefix + "faraz/faraz-icon.png",
           redirect_url: "/profile/faraz",
+        },
+        {
+          name: "Nkosiphile A.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "nkosiphile/Nkosiphile Headshot.png",
+          redirect_url: "/profile/nkosiphile",
         }
       ],
     },
@@ -2793,7 +2799,7 @@ const dataJson = {
       linkedin: "",
       mail: "",
       phoneNo: "",
-      resume: imagePrefix + "someNewGuy/[RESUME_FILE_HERE].pdf",
+      resume: imagePrefix + "elisha/ELISHA Remotual Resume.pdf",
       hiremeLink: ""
     },
     about: {
@@ -2928,7 +2934,151 @@ const dataJson = {
       youtubeLink: imagePrefix + "elisha/elisha.mp4"
       // thumbnail: imagePrefix + "elisha/elisha-video-image.png"
     }
+  },
+  nkosiphile : {
+    profile: {
+      image: imagePrefix + "nkosiphile/nkosiphile_image.svg",
+      name: "Nkosiphile A.",
+      designation: "Executive Assistant",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "nkosiphile/Nkosiphile A - Resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: "I am a smart worker; I find ways to complete work as quickly and efficiently as possible and I have a strong drive to see things to completion. As an optimistic and tenacious Executive Assistant, I bring five years of goal-oriented experience to the table, providing critical support to C-level executives. My expertise lies in travel and logistics, and managing operational and administrative functions with a high degree of accuracy.",
+      age: 24,
+      location: "Kenya",
+      availability: 40,
+      experience: 5
+    },
+    services: [
+      {
+        image: imagePrefix + "nkosiphile/time_management.png",
+        title: "Time management",
+        description: "Good time management skills keep operations flowing smoothly, and reduces stress levels."
+      },
+      {
+        image: imagePrefix + "nkosiphile/organizational_skills.png",
+        title: "Organisational skills",
+        description: "It is crucial to remain organised. The ability to juggle many tasks and still see them to completion is essential."
+      },
+      {
+        image: imagePrefix + "nkosiphile/communication_skills.png",
+        title: "Communication skills",
+        description: "Not only do I speak well, I read, write and listen too."
+      },
+      {
+        image: imagePrefix + "nkosiphile/attention_to_detail.png",
+        title: "Attention to detail",
+        description: "My attention to detail comes second to none. I catch small errors and ensure that everything is just right. "
+      },
+    ],
+    trackRecord: {
+      clients: "4",
+      projects: "4",
+      experience: "5",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "MAR 25",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Research",
+          "Poster design ",
+          "Presentations and tabulating data"
+        ]
+      },
+      education: {
+        start: "2021",
+        end: "",
+        degree: "Honours in Public Administration and Management",
+        schoolName: "University of the Free State",
+        description: []
+      },
+      skills: [
+        {
+          name: "Monday.com",
+          level: imagePrefix + "nkosiphile/bar1.svg"
+        },
+        {
+          name: "Airtable",
+          level: imagePrefix + "nkosiphile/bar2.svg"
+        },
+        {
+          name: "Zendesk",
+          level: imagePrefix + "nkosiphile/bar2.svg"
+        },
+        {
+          name: "Slack",
+          level: imagePrefix + "nkosiphile/bar2.svg"
+        },
+        {
+          name: "GSuite",
+          level: imagePrefix + "nkosiphile/bar3.svg"
+        },
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva2.svg",
+          name: "Canva",
+          level: 7 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 6 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "Hubspot",
+          level: 6 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7 // or whatever numeric level is in your data
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          name: "ChatGPT",
+          level: 7 // or whatever numeric level is in your data
+        },
+      ],
+      hardSkills: [
+       "Calendar Management",
+        "Document Creation & Management",
+        "Email Management",
+        "Proficiency in Microsoft Office Suite",
+        "Project Management",
+        "Communication Tools",
+        "Leadership"
+      ],
+      softSkills: [
+        "Time management",
+        "Communication",
+        "Adaptability",
+        "Growth Mindset",
+        "Foresight",
+        "Relationship-Building",
+        "Work Ethic"
+      ]
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
+      testimonials: [
+      ]
+    },
+    videoPlaylist: {
+      description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      youtubeLink: imagePrefix + "nkosiphile/Abbey D..mp4"
+    }
   }
+  
   
 };
 
