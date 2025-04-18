@@ -127,7 +127,7 @@ const dataJson = {
           name: "Chris O.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "chris/1.png",
-          redirect_url: "/profile/loraine",
+          redirect_url: "/profile/chris",
         },
         {
           name: "Quincy D.",
