@@ -386,7 +386,7 @@ const dataJson = {
   },
 
 
-  loraine: {
+  chris: {
     profile: {
       image: imagePrefix + "chris/chris.svg",
       name: "Chris O.",
