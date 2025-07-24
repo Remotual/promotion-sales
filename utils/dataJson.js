@@ -88,6 +88,12 @@ const dataJson = {
       tagline: "Meet our Top - Class EAs",
       team: [
         {
+          name: "Loraine M.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "loraine/loraine_headshot.png",
+          redirect_url: "/profile/loraine",
+        },
+        {
           name: "Valeria C.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "valeria/valeria.svg",
@@ -116,18 +122,6 @@ const dataJson = {
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "elisha/3%203.png",
           redirect_url: "/profile/elisha",
-        },
-        {
-          name: "Loraine M.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "loraine/Headshot Loraine.png",
-          redirect_url: "/profile/loraine",
-        },
-        {
-          name: "Chris O.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "chris/1.png",
-          redirect_url: "/profile/chris",
         },
         {
           name: "Quincy D.",
@@ -206,6 +200,18 @@ const dataJson = {
           title: "Talent Acquisition at Remotual",
           image: imagePrefix + "faraz/faraz-icon.png",
           redirect_url: "/profile/faraz",
+        },
+        {
+          name: "Debbie J.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "debbie/headout.png",
+          redirect_url: "/profile/debbie",
+        },
+        {
+          name: "Autumn M.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "autumn/autumn_headshot.jpg",
+          redirect_url: "/profile/autumn",
         }
       ],
     },
@@ -244,12 +250,12 @@ const dataJson = {
   loraine: {
     profile: {
       image: imagePrefix + "loraine/loraine.svg",
-      name: "Loraine M.",
+      name: "Loraine Matias",
       designation: "EXECUTIVE ASSISTANT",
       linkedin: "",
       mail: "",
       phoneNo: "",
-      resume: imagePrefix + "loraine/Resume_Loraine.pdf",
+      resume: imagePrefix + "loraine/loraine_resume.pdf",
       hiremeLink: ""
     },
     about: {
@@ -261,89 +267,87 @@ const dataJson = {
     },
     services: [
       {
-        image: imagePrefix + "loraine/service1.svg",
+        image: imagePrefix + "danika/customer-service-excellence.png",
         title: "Executive Assistance",
         description: "Expert in providing high-level administrative support to C-suite executives, including calendar management, meeting coordination, procurement, and research—ensuring smooth day-to-day operations and strategic support."
       },
       {
-        image: imagePrefix + "loraine/service2.svg",
-        title: "Procurement & Operations",
-        description: "Experienced in handling procurement processes, vendor coordination, and operational logistics—streamlining resources and improving organizational efficiency."
-      },
-      {
-        image: imagePrefix + "loraine/service4.svg",
+        image: imagePrefix + "danika/strong-organization.png",
         title: "Marketing Strategy & Management",
         description: "Skilled in developing and leading multi-channel marketing campaigns, managing brand identity, and optimizing digital marketing efforts (SEO, SEM, social media) to drive growth and engagement."
       },
       {
-        image: imagePrefix + "loraine/service3.svg",
+        image: imagePrefix + "danika/real-estate.png",
         title: "Project Management",
         description: "Proven ability to manage end-to-end projects—from planning to execution—ensuring timely delivery, cross-functional collaboration, and alignment with business goals."
+      },
+      {
+        image: imagePrefix + "danika/virtual-assistance.png",
+        title: "Procurement & Operations",
+        description: "Experienced in handling procurement processes, vendor coordination, and operational logistics—streamlining resources and improving organizational efficiency."
       }
     ],
     trackRecord: {
-      clients: "4",
-      projects: "4",
-      experience: "5",
+      clients: "9",
+      projects: "5",
+      experience: "1",
       ratings: "5"
     },
     resume: {
       experience: {
-        start: "April 2025",
+        start: "October 2024",
         end: "Present",
         destination: "Executive Assistant",
         companyName: "Remotual",
         description: [
-          "Conduct in-depth research on various topics to support decision-making and project development.",
-          "Design visually compelling posters and marketing materials to enhance brand communication.",
-          "Create, format, and deliver presentations using PowerPoint, ensuring data is clearly presented.",
-          "Collect, organize, and analyze data for reports, helping to track key performance metrics."
+          "Handling inbound and outbound calls to address customer inquiries and provide information about our services.",
+          "Vanaging clients' inboxes and calendars, ensuring timely responses and efficient scheduling."
         ]
       },
       education: {
         start: "",
         end: "",
-        degree: "",
-        schoolName: "Nueva Ecija University of Science and Technology",
-        description: []
+        degree: "Bachelor of Science",
+        schoolName: "Nueva Ecija University of Science and TechnologyNueva Ecija University of Science and Technology",
+        description: ["A bachelor of science course that delves into the financial, commercial, sales, and marketing mechanisms that power agtech, agribusiness, and management of natural resources; including human resources."]
       },
       skills: [
         {
-          name: "Monday.com",
-          level: imagePrefix + "loraine/bar1.svg"
+          name: "Basecamp",
+          level: imagePrefix + "Qunicy/Bar-2.svg"
         },
         {
-          name: "Connecteam",
-          level: imagePrefix + "loraine/bar2.svg"
+          name: "SurveyMonkey",
+          level: imagePrefix + "Qunicy/Bar-1.svg"
         },
         {
-          name: "Salesforce",
-          level: imagePrefix + "loraine/bar2.svg"
+          name: "AgoraPulse",
+          level: imagePrefix + "Qunicy/Bar-1.svg"
         },
         {
-          name: "Ooma",
-          level: imagePrefix + "loraine/bar2.svg"
+          name: "Time Doctor",
+          level: imagePrefix + "Qunicy/Bar-1.svg"
         },
         {
-          name: "GSuite",
-          level: imagePrefix + "loraine/bar1.svg"
+          name: "Hubstaff",
+          level: imagePrefix + "Qunicy/Bar-2.svg"
         }
       ],
       projectManagement: [
         {
-          logo: imagePrefix + "companyLogos/canva.svg",
-          name: "Canva",
+          logo: imagePrefix + "companyLogos/clickup.svg",
+          name: "ClickUp",
           level: 7
         },
         {
-          logo: imagePrefix + "companyLogos/asana.svg",
-          name: "Asana",
-          level: 6
+          logo: imagePrefix + "companyLogos/monday.svg",
+          name: "Monday",
+          level: 7
         },
         {
-          logo: imagePrefix + "companyLogos/hubspot.svg",
-          name: "HubSpot",
-          level: 6
+          logo: imagePrefix + "companyLogos/connectteam.svg",
+          name: "Connecteam",
+          level: 7
         },
         {
           logo: imagePrefix + "companyLogos/notion.svg",
@@ -351,28 +355,66 @@ const dataJson = {
           level: 7
         },
         {
+          logo: imagePrefix + "companyLogos/trello.svg",
+          name: "Trello",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "Hubspot",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/salesforce.svg",
+          name: "Salesforce",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/ooma.svg",
+          name: "Ooma",
+          level: 6
+        },
+        {
           logo: imagePrefix + "valeria/chatgpt.svg",
           name: "ChatGPT",
           level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/microsoft365.svg",
+          name: "Microsoft 365",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/googlesuite.svg",
+          name: "Google Suite",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/seamlessai.svg",
+          name: "Seamless.AI",
+          level: 6
         }
       ],      
       hardSkills: [
-        "Calendar Management",
+        "Marketing strategy and management",
         "Graphic design",
-        "Email Management",
-        "Marketing Strategy and Managment",
-        "Project Management",
-        "High Level Administration",
-        "Procurement Processes"
+        "Video editing",
+        "Project organization",
+        "High level administration",
+        "Vendor coordination",
+        "Procurement processes",
+        "Logistics",
+        "Calendar and time management",
+        "Meetings coordination"
       ],
       softSkills: [
-        "Logistics and Time management",
-        "Communication and Problem-Solving",
-        "Adaptability",
-        "Growth Mindset",
+        "Communication",
         "Active Listening",
+        "Initiative",
+        "Empathy driven",
         "Relationship-Building",
-        "Work Ethic"
+        "Emotional Intelligence",
+        "Problem-Solving"
       ]      
     },
     feedback: {
@@ -380,154 +422,12 @@ const dataJson = {
       testimonials: []
     },
     videoPlaylist: {
-      description: "I am a versatile and results-driven professional with a strong background in executive support, marketing strategy, and project management. Known for my resourcefulness and proactive approach, I excel at leading cross-functional teams, optimizing operations, and delivering impactful campaigns. With a passion for creativity and a commitment to excellence, I bring both structure and innovation to every project I take on.",
-      youtubeLink: imagePrefix + "loraine/Loraine M..mp4"
+      description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
+      youtubeLink: imagePrefix + "danika/danika-video.mp4"
     }
   },
 
 
-  chris: {
-    profile: {
-      image: imagePrefix + "chris/chris.svg",
-      name: "Chris O.",
-      designation: "EXECUTIVE ASSISTANT",
-      linkedin: "",
-      mail: "",
-      phoneNo: "",
-      resume: imagePrefix + "chris/Chris_Resume_Remotual.pdf",
-      hiremeLink: ""
-    },
-    about: {
-      description: "I’m a highly organized and detail-oriented Executive Assistant with proven experience in managing complex schedules, streamlining administrative operations, and providing top-tier support to executives. My strengths lie in multitasking, effective communication, and problem-solving, allowing me to thrive in fast-paced environments while maintaining a high level of professionalism and discretion.",
-      age: "28",
-      location: "Kenya",
-      availability: "40",
-      experience: 5
-    },
-    services: [
-      {
-        image: imagePrefix + "loraine/service1.svg",
-        title: "Calendar & Schedule Managment",
-        description: "Expert in organizing and maintaining complex calendars, scheduling meetings across multiple time zones, and ensuring optimal time management for executives."
-      },
-      {
-        image: imagePrefix + "loraine/service2.svg",
-        title: "Communication & Interpersonal Skills",
-        description: "Skilled in both written and verbal communication, with the ability to professionally interact with executives, clients, and cross-functional teams while maintaining confidentiality and diplomacy."
-      },
-      {
-        image: imagePrefix + "loraine/service4.svg",
-        title: "Organization & Multitasking",
-        description: "Highly organized with a strong ability to prioritize tasks, manage multiple responsibilities simultaneously, and meet tight deadlines without compromising quality."
-      },
-      {
-        image: imagePrefix + "chris/service5.svg",
-        title: "Proactive Problem Solving",
-        description: "A forward-thinking assistant who anticipates needs, resolves issues independently, and ensures seamless day-to-day operations with minimal disruption."
-      }
-    ],
-    trackRecord: {
-      clients: "5",
-      projects: "5",
-      experience: "5",
-      ratings: "5"
-    },
-    resume: {
-      experience: {
-        start: "March 2025",
-        end: "Present",
-        destination: "Executive Assistant",
-        companyName: "Remotual",
-        description: [
-          "Conduct in-depth research on various topics to support decision-making and project development.",
-          "Design visually compelling posters and marketing materials to enhance brand communication.",
-          "Create, format, and deliver presentations using PowerPoint, ensuring data is clearly presented.",
-          "Collect, organize, and analyze data for reports, helping to track key performance metrics."
-        ]
-      },
-      education: {
-        start: "",
-        end: "",
-        degree: "",
-        schoolName: "Jomo Kenyatta University of Agriculture and Technology - Bachelor of Business Administration.",
-        description: []
-      },
-      skills: [
-        {
-          name: "Monday.com",
-          level: imagePrefix + "loraine/bar1.svg"
-        },
-        {
-          name: "Connecteam",
-          level: imagePrefix + "loraine/bar2.svg"
-        },
-        {
-          name: "Salesforce",
-          level: imagePrefix + "loraine/bar2.svg"
-        },
-        {
-          name: "Ooma",
-          level: imagePrefix + "loraine/bar2.svg"
-        },
-        {
-          name: "GSuite",
-          level: imagePrefix + "loraine/bar1.svg"
-        }
-      ],
-      projectManagement: [
-        {
-          logo: imagePrefix + "chris/canva.svg",
-          name: "Canva",
-          level: 7
-        },
-        {
-          logo: imagePrefix + "companyLogos/asana.svg",
-          name: "Asana",
-          level: 6
-        },
-        {
-          logo: imagePrefix + "companyLogos/hubspot.svg",
-          name: "HubSpot",
-          level: 6
-        },
-        {
-          logo: imagePrefix + "companyLogos/notion.svg",
-          name: "Notion",
-          level: 7
-        },
-        {
-          logo: imagePrefix + "valeria/chatgpt.svg",
-          name: "ChatGPT",
-          level: 7
-        }
-      ],      
-      hardSkills: [
-        "Executive Assistance",
-        "Calendar Management",
-        "Project Coordination",
-        "Meeting and Event Coordination",
-        "Project Management",
-        "Design and Content Creation"
-      ],
-      softSkills: [
-        "Communication",
-        "Problem-Solving",
-        "Time Management",
-        "Initiative and Proactivity",
-        "Active Listening",
-        "Emotional Intelligence",
-        "Team Collaboration"
-      ]      
-    },
-    feedback: {
-      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations",
-      testimonials: []
-    },
-    videoPlaylist: {
-      description: "I’m a highly organized and detail-oriented Executive Assistant with proven experience in managing complex schedules, streamlining administrative operations, and providing top-tier support to executives. My strengths lie in multitasking, effective communication, and problem-solving, allowing me to thrive in fast-paced environments while maintaining a high level of professionalism and discretion.",
-      youtubeLink: imagePrefix + "chris/Chris O..mp4"
-    }
-  },
 
   danika: {
     profile: {
@@ -3377,8 +3277,292 @@ const dataJson = {
       description: "Hey there! Ready to put a face to the name? Dive into a 2-3 minute video where I spill the beans on who I am, what makes me tick, and the heart behind Remotual. It's not your typical intro—expect a dash of personality, a sprinkle of passion, and a whole lot of real talk. Hit play, and let's kick off this journey together!",
       youtubeLink: imagePrefix + "nkosiphile/Abbey D..mp4"
     }
-  }
-  
+  },
+  debbie: {
+    profile: {
+      image: imagePrefix + "debbie/large1.png",
+      name: "Debbie J.",
+      designation: "EXECUTIVE ASSISTANT",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "debbie/debbie_resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: "With over three and a half years at Patterns, I've developed a strong foundation in customer service, virtual assistance, marketing, and project management across diverse industries. I specialize in streamlining operations, managing teams, and enhancing client satisfaction through clear communication, attention to detail, and a proactive approach. My strengths lie in multitasking, leading with empathy, and consistently delivering high-quality work while fostering a collaborative and efficient team environment.",
+      age: "24",
+      location: "India",
+      availability: "40",
+      experience: "3"
+    },
+    services: [
+      {
+        image: imagePrefix + "debbie/crm_com.png",
+        title: "CRM & Communication Tools",
+        description: "Follow Up Boss, KW Command, GoHighLevel, MOO, RingCentral, MightyCall, Live Chat, Five9 – used for lead management, follow-ups, outbound calling, and real-time customer communication."
+      },
+      {
+        image: imagePrefix + "debbie/market_aut.png",
+        title: "Marketing & Automation",
+        description: "MailChimp, Canva – for creating and managing email marketing campaigns, social media content, brochures, flyers, and listing/buyer presentations. I've also built automated workflows and drip campaigns in GoHighLevel."
+      },
+      {
+        image: imagePrefix + "debbie/sched.png",
+        title: "Scheduling, Booking & Field Operations",
+        description: "Fieldd – used for booking, scheduling, and managing on-site services, particularly in my role supporting a cleaning business operating across multiple states."
+      },
+      {
+        image: imagePrefix + "debbie/proj_task.png",
+        title: "Project & Task Management",
+        description: "Monday.com, Google Workspace (Docs, Sheets, Slides), Microsoft Office Suite (Word, Excel, PowerPoint) – to track tasks, manage calendars, organize documentation, and collaborate with team members and clients."
+      }
+    ],
+    trackRecord: {
+      clients: "5",
+      projects: "5",
+      experience: "3",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "March 2025",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "I have over 3.5 years of experience at Patterns, where I started in customer service for an automobile dropshipping company, handling product inquiries, returns, refunds, and upselling.",
+          "I later transitioned into a Virtual Assistant role for a New York-based real estate agent, managing backend tasks such as email/calendar management, CRM systems (Follow Up Boss, KW Command), social media content, marketing materials, and email campaigns via MailChimp. I also served as a Transaction Coordinator during this time."
+        ]
+      },
+      education: {
+        start: "4 years",
+        end: "",
+        degree: "Bachelor of Business Administration",
+        schoolName: "Jomo Kenyatta University of Agriculture and Technology",
+        description: []
+      },
+      skills: [
+        {
+          name: "Monday.com",
+          level: imagePrefix + "debbie/monday.png"
+        },
+        {
+          name: "Connecteam",
+          level: imagePrefix + "debbie/connecteam.png"
+        },
+        {
+          name: "Salesforce",
+          level: imagePrefix + "debbie/salesforce.png"
+        },
+        {
+          name: "Ooma",
+          level: imagePrefix + "debbie/ooma.png"
+        },
+        {
+          name: "GSuite",
+          level: imagePrefix + "debbie/gsuit.png"
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva.svg",
+          name: "Canva",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "HubSpot",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          name: "ChatGPT",
+          level: 7
+        }
+      ],
+      hardSkills: [
+        "Executive Assistance",
+        "Calendar Management",
+        "Project Coordination",
+        "Meeting and Event Coordination",
+        "Project Management",
+        "Design and Content Creation"
+      ],
+      softSkills: [
+        "Communication",
+        "Problem-Solving",
+        "Time Management",
+        "Initiative and Proactivity",
+        "Active Listening",
+        "Emotional Intelligence",
+        "Team Collaboration"
+      ]
+    },
+    feedback: {
+      recommendation: "I have over 3.5 years of experience at Patterns, where I started in customer service for an automobile dropshipping company, handling product inquiries, returns, refunds, and upselling.\n\nI later transitioned into a Virtual Assistant role for a New York-based real estate agent, managing backend tasks such as email/calendar management, CRM systems (Follow Up Boss, KW Command), social media content, marketing materials, and email campaigns via MailChimp. I also served as a Transaction Coordinator during this time.\n\nFollowing that, I worked on a contract basis with a Texas-based client, creating websites and landing pages using GoHighLevel and building automated workflows and drip campaigns.\n\nAlongside my client-facing work, I trained new hires, participated in interviews, and currently manage a cleaning business project across three states—overseeing five team members, handling client communication, and ensuring timely task completion.\n\nMy experience spans project and team management, process optimization, and delivering high-quality support across multiple industries.",
+      testimonials: []
+    },
+    videoPlaylist: {
+      description: "Get to know Debbie in just 2–3 minutes! In this short video, I share my journey, passions, and the value I bring as an Executive Assistant. Expect authenticity, a dash of personality, and real-world insights into how I drive results for my clients.",
+      youtubeLink: imagePrefix + "debbie/video.mp4"
+    }
+  },
+
+  autumn: {
+    profile: {
+      image: imagePrefix + "autumn/large.png",
+      name: "Autumn M.",
+      designation: "EXECUTIVE ASSISTANT",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "autumn/autumn_resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: [
+        "With a strong background in operations and customer service, I efficiently manage high call volumes, coordinate schedules, and streamline daily workflows. Proficient in Google Workspace, Canva, and CRM tools, I support effective communication, polished content creation, and data-driven decisions.",
+        
+"As an Operations Executive with strong Executive Assistant experience, l've managed calendars, coordinated meetings, and overseen email and CRM systems to ensure seamless executive support. My background also includes high-volume customer service, social media management, and streamlining workflows using tools like Google Workspace, Pipedrive, and Meta Business Suite."
+      ],
+      age: "24",
+      location: "India",
+      availability: "40",
+      experience: "1"
+    },
+    services: [
+      {
+        image: imagePrefix + "autumn/executive.png",
+        title: "Executive & Administrative Support:",
+        description: "Skilled in calendar coordination, email management, event scheduling, and workflow optimization to ensure smooth day-to-day operations for executive teams."
+      },
+      {
+        image: imagePrefix + "autumn/customer.png",
+        title: "Customer Service & Communication:",
+        description: "Experienced in handling high call volumes (100+ calls/day), providing timely support, and using CRM tools like FollowUpBoss and Pipedrive to maintain strong client relationships."
+      },
+      {
+        image: imagePrefix + "autumn/crm.png",
+        title: "CRM & Data Management:",
+        description: "Proficient in organizing and verifying data, generating sales reports, and leveraging CRM systems to track performance, client interactions, and financials."
+      },
+      {
+        image: imagePrefix + "autumn/market.png",
+        title: "Marketing & Content Creation:",
+        description: "Adept at using Canva and Meta Business Suite to design targeted social media posts, flyers, and presentations that support brand outreach and engagement strategies."
+      }
+    ],
+    trackRecord: {
+      clients: "3",
+      projects: "3",
+      experience: "1",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "March 2025",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "I have one year of experience as an Operations Executive, where I managed calendars, email campaigns, and client data using tools like Google Workspace and CRM platforms such as FollowUpBoss and Pipedrive.",
+          "I handled high call volumes, scheduled events, and implemented an Al-powered response system to streamline communication and improve workflow efficiency. Additionally, I supported marketing efforts by creating targeted content through Canva and Meta Business Suite for social media outreach."
+        ]
+      },
+      education: {
+        start: "3 years",
+        end: "",
+        degree: "BA Honors Psychology",
+        schoolName: "Maharaja Sayajirao University",
+        description: []
+      },
+      skills: [
+        {
+          name: "Monday.com",
+          level: imagePrefix + "autumn/monday.png"
+        },
+        {
+          name: "Connecteam",
+          level: imagePrefix + "autumn/connection.png"
+        },
+        {
+          name: "Salesforce",
+          level: imagePrefix + "autumn/sales.png"
+        },
+        {
+          name: "Ooma",
+          level: imagePrefix + "autumn/ooma.png"
+        },
+        {
+          name: "GSuite",
+          level: imagePrefix + "autumn/gsuit.png"
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva.svg",
+          name: "Canva",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Asana",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "HubSpot",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "valeria/chatgpt.svg",
+          name: "ChatGPT",
+          level: 7
+        }
+      ],
+      hardSkills: [
+        "Executive Assistance",
+        "Calendar Management",
+        "Project Coordination",
+        "Meeting and Event Coordination",
+        "Project Management",
+        "Design and Content Creation"
+      ],
+      softSkills: [
+        "Communication",
+        "Problem-Solving",
+        "Time Management",
+        "Initiative and Proactivity",
+        "Active Listening",
+        "Emotional Intelligence",
+        "Team Collaboration"
+      ]
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations.",
+      testimonials: []
+    },
+    videoPlaylist: {
+      description: "Get to know Autumn in just 2–3 minutes! In this short video, I share my journey, passions, and the value I bring as an Executive Assistant. Expect authenticity, a dash of personality, and real-world insights into how I drive results for my clients.",
+      youtubeLink: imagePrefix + "autumn/autumn_video.mp4"
+    }
+  }    
   
 };
 
