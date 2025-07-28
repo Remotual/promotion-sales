@@ -88,18 +88,6 @@ const dataJson = {
       tagline: "Meet our Top - Class EAs",
       team: [
         {
-          name: "Loraine M.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "loraine/loraine_headshot.png",
-          redirect_url: "/profile/loraine",
-        },
-        {
-          name: "Valeria C.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "valeria/valeria.svg",
-          redirect_url: "/profile/valeria",
-        },
-        {
           name: "Carlota A.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "team_profile2.svg",
@@ -116,6 +104,18 @@ const dataJson = {
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "team_profile4.svg",
           redirect_url: "/profile/jacqueline",
+        },
+        {
+          name: "Debbie J.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "debbie/headout.png",
+          redirect_url: "/profile/debbie",
+        },
+        {
+          name: "Autumn M.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "autumn/autumn_headshot.png",
+          redirect_url: "/profile/autumn",
         },
         {
           name: "Elisha O.",
@@ -202,16 +202,16 @@ const dataJson = {
           redirect_url: "/profile/faraz",
         },
         {
-          name: "Debbie J.",
+          name: "Loraine M.",
           title: "Executive Assistant at Remotual",
-          image: imagePrefix + "debbie/headout.png",
-          redirect_url: "/profile/debbie",
+          image: imagePrefix + "loraine/loraine_headshot.png",
+          redirect_url: "/profile/loraine",
         },
         {
-          name: "Autumn M.",
+          name: "Valeria C.",
           title: "Executive Assistant at Remotual",
-          image: imagePrefix + "autumn/autumn_headshot.jpg",
-          redirect_url: "/profile/autumn",
+          image: imagePrefix + "valeria/valeria.svg",
+          redirect_url: "/profile/valeria",
         }
       ],
     },
