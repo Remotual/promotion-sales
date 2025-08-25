@@ -212,6 +212,12 @@ const dataJson = {
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "valeria/valeria.svg",
           redirect_url: "/profile/valeria",
+        },
+        {
+          name: "Abril S.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "abril/abril.svg",
+          redirect_url: "/profile/abril",
         }
       ],
     },
@@ -3562,7 +3568,148 @@ const dataJson = {
       description: "Get to know Autumn in just 2–3 minutes! In this short video, I share my journey, passions, and the value I bring as an Executive Assistant. Expect authenticity, a dash of personality, and real-world insights into how I drive results for my clients.",
       youtubeLink: imagePrefix + "autumn/autumn_video.mp4"
     }
-  }    
+  },
+  abril: {
+    profile: {
+      image: imagePrefix + "abril/abril_headshot%20(1).png",
+      name: "Abril J.",
+      designation: "EXECUTIVE ASSISTANT",
+      linkedin: "",
+      mail: "",
+      phoneNo: "",
+      resume: imagePrefix + "abril/resume.pdf",
+      hiremeLink: ""
+    },
+    about: {
+      description: "I’m a PR graduate with a strong background in digital marketing, combining creativity with an analytical eye for detail. Tech-savvy and adaptable, I thrive in fast-paced environments where I can connect with people and bring ideas to life.",
+      age: "29",
+      location: "Argentina",
+      availability: "40",
+      experience: 2
+    },
+    services: [
+      {
+        image: imagePrefix + "abril/digital_marketing.png",
+        title: "Digital Marketing",
+        description: "Skilled in creating and executing strategies that boost brand visibility and engagement across multiple platforms."
+      },
+      {
+        image: imagePrefix + "abril/atten_details.png",
+        title: "Attention to Detail",
+        description: "Ensures accuracy and consistency in all tasks, from content creation to administrative work."
+      },
+      {
+        image: imagePrefix + "abril/texh_savy.png",
+        title: "Tech-Savvy",
+        description: "Proficient in digital tools, project management platforms, and emerging technologies to optimize workflows."
+      },
+      {
+        image: imagePrefix + "abril/adapt.png",
+        title: "Adaptability",
+        description: "Thrives in fast-paced environments, quickly adjusting to shifting priorities and new challenges."
+      }
+    ],
+    trackRecord: {
+      clients: "7",
+      projects: "10",
+      experience: "2",
+      ratings: "5"
+    },
+    resume: {
+      experience: {
+        start: "March 2025",
+        end: "Present",
+        destination: "Executive Assistant",
+        companyName: "Remotual",
+        description: [
+          "Manage executive calendars, coordinate meetings, and streamline communications between teams and stakeholders.",
+          "Handle confidential documents, reports, and administrative workflows with attention to detail.",
+          "Support project execution by organizing tasks, tracking deadlines, and ensuring deliverables meet quality standards."
+        ]
+      },
+      education: {
+        start: "4 Years",
+        end: "",
+        degree: "Bachelor’s Degree in Public Relations",
+        schoolName: "Universidad Nacional de La Matanza",
+        description: []
+      },
+      skills: [
+        {
+          name: "Monday.com",
+          level: imagePrefix + "abril/monday.png"
+        },
+        {
+          name: "Connecteam",
+          level: imagePrefix + "abril/connect.png"
+        },
+        {
+          name: "Salesforce",
+          level: imagePrefix + "abril/salesforce.png"
+        },
+        {
+          name: "Ooma",
+          level: imagePrefix + "abril/ooma.png"
+        },
+        {
+          name: "GSuit",
+          level: imagePrefix + "abril/gsuit.png"
+        }
+      ],
+      projectManagement: [
+        {
+          logo: imagePrefix + "companyLogos/canva2.svg",
+          name: "ClickUp",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "companyLogos/asana.svg",
+          name: "Monday",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/hubspot.svg",
+          name: "Connecteam",
+          level: 6
+        },
+        {
+          logo: imagePrefix + "companyLogos/notion.svg",
+          name: "Notion",
+          level: 7
+        },
+        {
+          logo: imagePrefix + "abril/chatgpt.svg",
+          name: "Notion",
+          level: 7
+        },
+      ],      
+      hardSkills: [
+        "Digital Marketing Strategy",
+        "Social Media Management",
+        "Brand Development & Rebranding",
+        "Content Creation & Copywriting",
+        "Project Management",
+        "Analytics & Reporting"
+      ],
+      softSkills: [
+        "Communication and attention to Detail",
+        "Adaptability",
+        "Time Management",
+        "Initiative and Proactivity",
+        "Strategic Thinking",
+        "Emotional Intelligence",
+        "Team Collaboration"
+      ]      
+    },
+    feedback: {
+      recommendation: "Discover the impact of Remotual through testimonials. These concise stories showcase the reliability, value, and excellence we bring to every project. Join our community and experience firsthand how we exceed expectations.",
+      testimonials: []
+    },
+    videoPlaylist: {
+      description: "I’m a PR graduate with a strong background in digital marketing, combining creativity with an analytical eye for detail. Tech-savvy and adaptable, I thrive in fast-paced environments where I can connect with people and bring ideas to life.",
+      youtubeLink: imagePrefix + "abril/video.mp4"
+    }
+  },
   
 };
 
