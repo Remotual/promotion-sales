@@ -118,6 +118,12 @@ const dataJson = {
           redirect_url: "/profile/autumn",
         },
         {
+          name: "Abril S.",
+          title: "Executive Assistant at Remotual",
+          image: imagePrefix + "abril/abril.svg",
+          redirect_url: "/profile/abril",
+        },
+        {
           name: "Elisha O.",
           title: "Executive Assistant at Remotual",
           image: imagePrefix + "elisha/3%203.png",
@@ -213,12 +219,6 @@ const dataJson = {
           image: imagePrefix + "valeria/valeria.svg",
           redirect_url: "/profile/valeria",
         },
-        {
-          name: "Abril S.",
-          title: "Executive Assistant at Remotual",
-          image: imagePrefix + "abril/abril.svg",
-          redirect_url: "/profile/abril",
-        }
       ],
     },
     testimonials: [
